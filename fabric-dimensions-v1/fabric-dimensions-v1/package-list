@@ -1,0 +1,7 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+net.fabricmc.fabric.api.dimension.v1
+net.fabricmc.fabric.impl.dimension
+net.fabricmc.fabric.mixin.dimension
+

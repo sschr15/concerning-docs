@@ -1,0 +1,9 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+net.fabricmc.fabric.api.client.screenhandler.v1
+net.fabricmc.fabric.api.screenhandler.v1
+net.fabricmc.fabric.impl.screenhandler
+net.fabricmc.fabric.impl.screenhandler.client
+net.fabricmc.fabric.mixin.screenhandler
+

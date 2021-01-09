@@ -1,0 +1,7 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+net.fabricmc.fabric.api.event
+net.fabricmc.fabric.api.util
+net.fabricmc.fabric.impl.base.event
+

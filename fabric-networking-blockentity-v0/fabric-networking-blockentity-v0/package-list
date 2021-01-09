@@ -1,0 +1,6 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+net.fabricmc.fabric.api.block.entity
+net.fabricmc.fabric.mixin.networking.blockentity
+
