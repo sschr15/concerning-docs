@@ -1,0 +1,7 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+net.fabricmc.fabric.api.blockrenderlayer.v1
+net.fabricmc.fabric.impl.blockrenderlayer
+net.fabricmc.fabric.mixin.blockrenderlayer
+

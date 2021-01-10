@@ -1,0 +1,11 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+net.fabricmc.fabric.api.gamerule.v1
+net.fabricmc.fabric.api.gamerule.v1.rule
+net.fabricmc.fabric.impl.gamerule
+net.fabricmc.fabric.impl.gamerule.rule
+net.fabricmc.fabric.impl.gamerule.widget
+net.fabricmc.fabric.mixin.gamerule
+net.fabricmc.fabric.mixin.gamerule.client
+

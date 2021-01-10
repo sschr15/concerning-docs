@@ -1,0 +1,171 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>net.fabricmc.fabric.api.resource</title>
+    <link href="../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../";</script>
+    <script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
+    <link href="../../styles/style.css" rel="Stylesheet">
+    <link href="../../styles/logo-styles.css" rel="Stylesheet">
+    <link href="../../styles/jetbrains-mono.css" rel="Stylesheet">
+    <link href="../../styles/main.css" rel="Stylesheet">
+    <script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
+    <script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
+    <script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
+    <script type="text/javascript" src="../../scripts/main.js" async="async"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="leftColumn">
+        <div id="logo"></div>
+        <div id="paneSearch"></div>
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main">
+        <div id="leftToggler"><span class="icon-toggler"></span></div>
+        <script type="text/javascript" src="../../scripts/pages.js"></script>
+        <script type="text/javascript" src="../../scripts/main.js"></script>
+        <div class="main-content" id="content" pageIds="net.fabricmc.fabric.api.resource////PointingToDeclaration//-1315171787">
+          <div class="navigation-wrapper" id="navigation-wrapper">
+            <div class="breadcrumbs"><a href="../index.html">fabric-resource-loader-v0</a>/<a href="index.html">net.fabricmc.fabric.api.resource</a></div>
+            <div class="pull-right d-flex">
+              <div id="searchBar"></div>
+            </div>
+          </div>
+          <div class="cover ">
+            <h1 class="cover"><span>Package net.</span><wbr></wbr><span>fabricmc.</span><wbr></wbr><span>fabric.</span><wbr></wbr><span>api.</span><wbr></wbr><span>resource</span></h1>
+            <div class="platform-hinted UnderCoverText" data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-resource-loader-v0:dokkaHtml/main"><p class="paragraph">The Resource Loader, version 0. </p>Quick note about vocabulary in Resource Loader and Minecraft:<ul><li>Resource Pack refers to both client-sided resource pack and data pack.</li><li>Virtual Resource Pack refers to a resource pack that may be generated at runtime, or simply doesn't exist directly on disk.</li><li>Group Resource Pack refers to a virtual resource pack that groups multiple resource packs together.</li></ul>Modded Resource Pack Handling<p class="paragraph">The Resource Loader will create a resource pack for each mod that provides resources in <code>{@code assets}</code> or <code>{@code data}</code> sub-directories. Those mod resource packs are grouped into a single always-enabled group resource pack which is shown in the resource pack screen.</p>Built-in Mod Resource Pack<p class="paragraph">The Resource Loader adds manually registered mod resource packs. Those resource packs are registered with <a href="-resource-manager-helper/register-builtin-resource-pack.html">registerBuiltinResourcePack</a></p>Programmer Art Resource Pack<p class="paragraph">The Resource Loader will inject resources into the Programmer Art resource pack for each mod that provides Programmer Art resources in the <code>{@code programmer_art}</code> top-level directory of the mod whose structure is similar to a normal resource pack.</p>Resource Reload Listener<p class="paragraph">The Resource Loader allows mods to register resource reload listeners through <a href="-resource-manager-helper/register-reload-listener.html">registerReloadListener</a>, which are triggered when resources are reloaded. A resource reload listener can depend on another and vanilla resource reload listener identifiers may be found in <a href="-resource-reload-listener-keys/index.html">net.fabricmc.fabric.api.resource.ResourceReloadListenerKeys</a>.</p></div></div>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button></div>
+            <div class="tabs-section-body">
+              <h2 class="">Types</h2>
+              <div class="table" data-togglable="Types"><a data-name="%5Bnet.fabricmc.fabric.api.resource%2FIdentifiableResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="IdentifiableResourceReloadListener" id="%5Bnet.fabricmc.fabric.api.resource%2FIdentifiableResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-identifiable-resource-reload-listener/index.html">IdentifiableResourceReloadListener</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.resource%2FIdentifiableResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-resource-loader-v0:dokkaHtml/main"><div class="symbol monospace">interface <a href="-identifiable-resource-reload-listener/index.html">IdentifiableResourceReloadListener</a> : <span data-unresolved-link="net.minecraft.resource/ResourceReloadListener///PointingToDeclaration/">ResourceReloadListener</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FIdentifiableResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="IdentifiableResourceReloadListener" id="%5Bnet.fabricmc.fabric.api.resource%2FIdentifiableResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.resource%2FIdentifiableResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="IdentifiableResourceReloadListener" id="%5Bnet.fabricmc.fabric.api.resource%2FIdentifiableResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>Interface for &quot;identifiable&quot; resource reload listeners.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FModResourcePack%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="ModResourcePack" id="%5Bnet.fabricmc.fabric.api.resource%2FModResourcePack%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-mod-resource-pack/index.html">ModResourcePack</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.resource%2FModResourcePack%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-resource-loader-v0:dokkaHtml/main"><div class="symbol monospace">interface <a href="-mod-resource-pack/index.html">ModResourcePack</a> : <span data-unresolved-link="net.minecraft.resource/ResourcePack///PointingToDeclaration/">ResourcePack</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FModResourcePack%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="ModResourcePack" id="%5Bnet.fabricmc.fabric.api.resource%2FModResourcePack%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.resource%2FModResourcePack%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="ModResourcePack" id="%5Bnet.fabricmc.fabric.api.resource%2FModResourcePack%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>Interface implemented by mod-provided resource packs.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FResourceManagerHelper%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="ResourceManagerHelper" id="%5Bnet.fabricmc.fabric.api.resource%2FResourceManagerHelper%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-resource-manager-helper/index.html">ResourceManagerHelper</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.resource%2FResourceManagerHelper%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-resource-loader-v0:dokkaHtml/main"><div class="symbol monospace">interface <a href="-resource-manager-helper/index.html">ResourceManagerHelper</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FResourceManagerHelper%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="ResourceManagerHelper" id="%5Bnet.fabricmc.fabric.api.resource%2FResourceManagerHelper%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.resource%2FResourceManagerHelper%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="ResourceManagerHelper" id="%5Bnet.fabricmc.fabric.api.resource%2FResourceManagerHelper%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>Helper for working with <span data-unresolved-link="net.minecraft.resource/ResourceManager///PointingToDeclaration/">ResourceManager</span> instances, and other resource loader generalities.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FResourcePackActivationType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="ResourcePackActivationType" id="%5Bnet.fabricmc.fabric.api.resource%2FResourcePackActivationType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-resource-pack-activation-type/index.html">ResourcePackActivationType</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.resource%2FResourcePackActivationType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-resource-loader-v0:dokkaHtml/main"><div class="symbol monospace">enum <a href="-resource-pack-activation-type/index.html">ResourcePackActivationType</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FResourcePackActivationType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="ResourcePackActivationType" id="%5Bnet.fabricmc.fabric.api.resource%2FResourcePackActivationType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.resource%2FResourcePackActivationType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="ResourcePackActivationType" id="%5Bnet.fabricmc.fabric.api.resource%2FResourcePackActivationType%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>Represents the resource pack activation type.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FResourceReloadListenerKeys%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="ResourceReloadListenerKeys" id="%5Bnet.fabricmc.fabric.api.resource%2FResourceReloadListenerKeys%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-resource-reload-listener-keys/index.html">ResourceReloadListenerKeys</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.resource%2FResourceReloadListenerKeys%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-resource-loader-v0:dokkaHtml/main"><div class="symbol monospace">class <a href="-resource-reload-listener-keys/index.html">ResourceReloadListenerKeys</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FResourceReloadListenerKeys%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="ResourceReloadListenerKeys" id="%5Bnet.fabricmc.fabric.api.resource%2FResourceReloadListenerKeys%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.resource%2FResourceReloadListenerKeys%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="ResourceReloadListenerKeys" id="%5Bnet.fabricmc.fabric.api.resource%2FResourceReloadListenerKeys%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>This class contains default keys for various Minecraft resource reload listeners.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FSimpleResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="SimpleResourceReloadListener" id="%5Bnet.fabricmc.fabric.api.resource%2FSimpleResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-simple-resource-reload-listener/index.html">SimpleResourceReloadListener</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.resource%2FSimpleResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-resource-loader-v0:dokkaHtml/main"><div class="symbol monospace">interface <a href="-simple-resource-reload-listener/index.html">SimpleResourceReloadListener</a>&lt;<a href="-simple-resource-reload-listener/index.html">T</a>&gt; : <a href="-identifiable-resource-reload-listener/index.html">IdentifiableResourceReloadListener</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FSimpleResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="SimpleResourceReloadListener" id="%5Bnet.fabricmc.fabric.api.resource%2FSimpleResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.resource%2FSimpleResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="SimpleResourceReloadListener" id="%5Bnet.fabricmc.fabric.api.resource%2FSimpleResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>A simplified version of the &quot;resource reload listener&quot; interface, hiding the peculiarities of the API.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FSimpleSynchronousResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="SimpleSynchronousResourceReloadListener" id="%5Bnet.fabricmc.fabric.api.resource%2FSimpleSynchronousResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-simple-synchronous-resource-reload-listener/index.html">SimpleSynchronousResourceReloadListener</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.resource%2FSimpleSynchronousResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-resource-loader-v0:dokkaHtml/main" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-resource-loader-v0:dokkaHtml/main"><div class="symbol monospace">interface <a href="-simple-synchronous-resource-reload-listener/index.html">SimpleSynchronousResourceReloadListener</a> : <a href="-identifiable-resource-reload-listener/index.html">IdentifiableResourceReloadListener</a>, <span data-unresolved-link="net.minecraft.resource/SynchronousResourceReloadListener///PointingToDeclaration/">SynchronousResourceReloadListener</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.resource%2FSimpleSynchronousResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="SimpleSynchronousResourceReloadListener" id="%5Bnet.fabricmc.fabric.api.resource%2FSimpleSynchronousResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.resource%2FSimpleSynchronousResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" anchor-label="SimpleSynchronousResourceReloadListener" id="%5Bnet.fabricmc.fabric.api.resource%2FSimpleSynchronousResourceReloadListener%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-1315171787" data-filterable-set=":fabric-resource-loader-v0:dokkaHtml/main"></a>A simplified version of the &quot;resource reload listener&quot; interface, hiding the peculiarities of the API and ensuring all data is loaded on the main thread.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2020 Copyright</span><span class="pull-right"><span>Sponsored and developed by dokka</span><a href="https://github.com/Kotlin/dokka"><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  </body>
+</html>
+

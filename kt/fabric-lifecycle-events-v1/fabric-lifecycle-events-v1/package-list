@@ -1,0 +1,8 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+net.fabricmc.fabric.api.client.event.lifecycle.v1
+net.fabricmc.fabric.api.event.lifecycle.v1
+net.fabricmc.fabric.mixin.event.lifecycle
+net.fabricmc.fabric.mixin.event.lifecycle.client
+

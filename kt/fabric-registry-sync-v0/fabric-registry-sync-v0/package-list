@@ -1,0 +1,10 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+net.fabricmc.fabric.api.event.registry
+net.fabricmc.fabric.impl.registry.sync
+net.fabricmc.fabric.impl.registry.sync.trackers
+net.fabricmc.fabric.impl.registry.sync.trackers.vanilla
+net.fabricmc.fabric.mixin.registry.sync
+net.fabricmc.fabric.mixin.registry.sync.client
+

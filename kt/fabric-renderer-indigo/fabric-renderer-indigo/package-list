@@ -1,0 +1,12 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+net.fabricmc.fabric.impl.client.indigo
+net.fabricmc.fabric.impl.client.indigo.renderer
+net.fabricmc.fabric.impl.client.indigo.renderer.accessor
+net.fabricmc.fabric.impl.client.indigo.renderer.aocalc
+net.fabricmc.fabric.impl.client.indigo.renderer.helper
+net.fabricmc.fabric.impl.client.indigo.renderer.mesh
+net.fabricmc.fabric.impl.client.indigo.renderer.render
+net.fabricmc.fabric.mixin.client.indigo.renderer
+
