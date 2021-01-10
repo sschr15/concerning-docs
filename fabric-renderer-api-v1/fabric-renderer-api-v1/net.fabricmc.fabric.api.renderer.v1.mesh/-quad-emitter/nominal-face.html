@@ -25,7 +25,7 @@
         <div id="leftToggler"><span class="icon-toggler"></span></div>
         <script type="text/javascript" src="../../../scripts/pages.js"></script>
         <script type="text/javascript" src="../../../scripts/main.js"></script>
-        <div class="main-content" id="content" pageIds="net.fabricmc.fabric.api.renderer.v1.mesh/QuadEmitter/nominalFace/#net.minecraft.util.math.Direction/PointingToDeclaration//-1624834617">
+        <div class="main-content" id="content" pageIds="net.fabricmc.fabric.api.renderer.v1.mesh/QuadEmitter/nominalFace/#net.minecraft.util.math.Direction/PointingToDeclaration//-2080808594">
           <div class="navigation-wrapper" id="navigation-wrapper">
             <div class="breadcrumbs"><a href="../../index.html">fabric-renderer-api-v1</a>/<a href="../index.html">net.fabricmc.fabric.api.renderer.v1.mesh</a>/<a href="index.html">QuadEmitter</a>/<a href="nominal-face.html">nominalFace</a></div>
             <div class="pull-right d-flex">
@@ -38,7 +38,7 @@
 <div class="divergent-group" data-filterable-current=":fabric-renderer-api-v1:dokkaHtml/main" data-filterable-set=":fabric-renderer-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
 
   <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-renderer-api-v1:dokkaHtml/main"><div class="symbol monospace"> abstract fun <a href="nominal-face.html">nominalFace</a>(face: <span data-unresolved-link="net.minecraft.util.math/Direction///PointingToDeclaration/">Direction</span>): <a href="index.html">QuadEmitter</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-renderer-api-v1:dokkaHtml/main"><div class="symbol monospace block">abstract <a href="index.html">QuadEmitter</a> <a href="nominal-face.html">nominalFace</a>(<span data-unresolved-link="net.minecraft.util.math/Direction///PointingToDeclaration/">Direction</span> <a href="nominal-face.html">face</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
   </div>
 <p class="paragraph">Provides a hint to renderer about the facing of this quad. Not required,but if provided can shortcut some geometric analysis if the quad is parallel to a block face.Should be the expected value of <a href="../-quad-view/light-face.html">lightFace</a>. Value will be confirmedand if invalid the correct light face will be calculated.</p><p class="paragraph">Null by default, and set automatically by <a href="../-quad-view/cull-face.html">cullFace</a>.</p><p class="paragraph">Models may also find this useful as the face for texture UV locking and rotation semantics.</p><p class="paragraph">Note: This value is not persisted independently when the quad is encoded.When reading encoded quads, this value will always be the same as <a href="../-quad-view/light-face.html">lightFace</a>.</p></div>
         </div>

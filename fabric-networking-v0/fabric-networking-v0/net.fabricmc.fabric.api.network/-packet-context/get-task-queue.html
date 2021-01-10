@@ -25,7 +25,7 @@
         <div id="leftToggler"><span class="icon-toggler"></span></div>
         <script type="text/javascript" src="../../../scripts/pages.js"></script>
         <script type="text/javascript" src="../../../scripts/main.js"></script>
-        <div class="main-content" id="content" pageIds="net.fabricmc.fabric.api.network/PacketContext/getTaskQueue/#/PointingToDeclaration//-43148304">
+        <div class="main-content" id="content" pageIds="net.fabricmc.fabric.api.network/PacketContext/getTaskQueue/#/PointingToDeclaration//-556850049">
           <div class="navigation-wrapper" id="navigation-wrapper">
             <div class="breadcrumbs"><a href="../../index.html">fabric-networking-v0</a>/<a href="../index.html">net.fabricmc.fabric.api.network</a>/<a href="index.html">PacketContext</a>/<a href="get-task-queue.html">getTaskQueue</a></div>
             <div class="pull-right d-flex">
@@ -38,7 +38,7 @@
 <div class="divergent-group" data-filterable-current=":fabric-networking-v0:dokkaHtml/main" data-filterable-set=":fabric-networking-v0:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
 
   <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-networking-v0:dokkaHtml/main"><div class="symbol monospace"> abstract fun <a href="get-task-queue.html">getTaskQueue</a>(): <span data-unresolved-link="net.minecraft.util.thread/ThreadExecutor///PointingToDeclaration/">ThreadExecutor</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-networking-v0:dokkaHtml/main"><div class="symbol monospace block">abstract <span data-unresolved-link="net.minecraft.util.thread/ThreadExecutor///PointingToDeclaration/">ThreadExecutor</span> <a href="get-task-queue.html">getTaskQueue</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
   </div>
 <p class="paragraph">Get the task queue for a given side.</p><p class="paragraph">As Minecraft networking I/O is asynchronous, but a lot of its logic isnot thread-safe, it is recommended to do the following:</p><ul><li>read and parse the PacketByteBuf,</li><li>run the packet response logic through the main thread task queue viaThreadTaskQueue.execute(). The method will check if it's not alreadyon the main thread in order to avoid unnecessary delays, so don'tworry about that!</li></ul><h4 class="">Return</h4><p class="paragraph">The thread task queue.</p></div>
         </div>

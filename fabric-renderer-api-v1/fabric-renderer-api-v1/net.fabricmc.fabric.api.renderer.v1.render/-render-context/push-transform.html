@@ -25,7 +25,7 @@
         <div id="leftToggler"><span class="icon-toggler"></span></div>
         <script type="text/javascript" src="../../../scripts/pages.js"></script>
         <script type="text/javascript" src="../../../scripts/main.js"></script>
-        <div class="main-content" id="content" pageIds="net.fabricmc.fabric.api.renderer.v1.render/RenderContext/pushTransform/#net.fabricmc.fabric.api.renderer.v1.render.RenderContext.QuadTransform/PointingToDeclaration//-1624834617">
+        <div class="main-content" id="content" pageIds="net.fabricmc.fabric.api.renderer.v1.render/RenderContext/pushTransform/#net.fabricmc.fabric.api.renderer.v1.render.RenderContext.QuadTransform/PointingToDeclaration//-2080808594">
           <div class="navigation-wrapper" id="navigation-wrapper">
             <div class="breadcrumbs"><a href="../../index.html">fabric-renderer-api-v1</a>/<a href="../index.html">net.fabricmc.fabric.api.renderer.v1.render</a>/<a href="index.html">RenderContext</a>/<a href="push-transform.html">pushTransform</a></div>
             <div class="pull-right d-flex">
@@ -38,7 +38,7 @@
 <div class="divergent-group" data-filterable-current=":fabric-renderer-api-v1:dokkaHtml/main" data-filterable-set=":fabric-renderer-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
 
   <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-renderer-api-v1:dokkaHtml/main"><div class="symbol monospace"> abstract fun <a href="push-transform.html">pushTransform</a>(transform: <a href="-quad-transform/index.html">RenderContext.QuadTransform</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-renderer-api-v1:dokkaHtml/main"><div class="symbol monospace block">abstract void <a href="push-transform.html">pushTransform</a>(<a href="-quad-transform/index.html">RenderContext.QuadTransform</a> <a href="push-transform.html">transform</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
   </div>
 <p class="paragraph">Causes all models/quads/meshes sent to this consumer to be transformed by the provided <a href="-quad-transform/index.html">QuadTransform</a> that edits each quad before buffering. Quads in the mesh willbe passed to the <a href="-quad-transform/index.html">QuadTransform</a> for modification before offsets, face culling or lighting are applied.Meant for animation and mesh customization.</p><p class="paragraph">You MUST call <a href="pop-transform.html">popTransform</a> after model is done outputting quads.</p><p class="paragraph">More than one transformer can be added to the context. Transformers are applied in reverse order.(Last pushed is applied first.)</p><p class="paragraph">Meshes are never mutated by the transformer - only buffered quads. This ensures thread-safeuse of meshes/models across multiple chunk builders.</p><p class="paragraph">Only the renderer should implement or extend this interface.</p></div>
         </div>

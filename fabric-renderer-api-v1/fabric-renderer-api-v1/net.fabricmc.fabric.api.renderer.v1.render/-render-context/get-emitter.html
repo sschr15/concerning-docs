@@ -25,7 +25,7 @@
         <div id="leftToggler"><span class="icon-toggler"></span></div>
         <script type="text/javascript" src="../../../scripts/pages.js"></script>
         <script type="text/javascript" src="../../../scripts/main.js"></script>
-        <div class="main-content" id="content" pageIds="net.fabricmc.fabric.api.renderer.v1.render/RenderContext/getEmitter/#/PointingToDeclaration//-1624834617">
+        <div class="main-content" id="content" pageIds="net.fabricmc.fabric.api.renderer.v1.render/RenderContext/getEmitter/#/PointingToDeclaration//-2080808594">
           <div class="navigation-wrapper" id="navigation-wrapper">
             <div class="breadcrumbs"><a href="../../index.html">fabric-renderer-api-v1</a>/<a href="../index.html">net.fabricmc.fabric.api.renderer.v1.render</a>/<a href="index.html">RenderContext</a>/<a href="get-emitter.html">getEmitter</a></div>
             <div class="pull-right d-flex">
@@ -38,7 +38,7 @@
 <div class="divergent-group" data-filterable-current=":fabric-renderer-api-v1:dokkaHtml/main" data-filterable-set=":fabric-renderer-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
 
   <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-renderer-api-v1:dokkaHtml/main"><div class="symbol monospace"> abstract fun <a href="get-emitter.html">getEmitter</a>(): <a href="../../net.fabricmc.fabric.api.renderer.v1.mesh/-quad-emitter/index.html">QuadEmitter</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-renderer-api-v1:dokkaHtml/main"><div class="symbol monospace block">abstract <a href="../../net.fabricmc.fabric.api.renderer.v1.mesh/-quad-emitter/index.html">QuadEmitter</a> <a href="get-emitter.html">getEmitter</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
   </div>
 <p class="paragraph">Returns a <a href="../../net.fabricmc.fabric.api.renderer.v1.mesh/-quad-emitter/index.html">QuadEmitter</a> instance that emits directly to the render buffer.It remains necessary to call <a href="../../net.fabricmc.fabric.api.renderer.v1.mesh/-quad-emitter/emit.html">emit</a> to output the quad.</p><p class="paragraph">This method will always be less performant than passing pre-baked meshesvia <a href="mesh-consumer.html">meshConsumer</a>. It should be used sparingly for model components thatdemand it - text, icons, dynamic indicators, or other elements that vary toomuch for static baking to be feasible.</p><p class="paragraph">Calling this method invalidates any <a href="../../net.fabricmc.fabric.api.renderer.v1.mesh/-quad-emitter/index.html">QuadEmitter</a> returned earlier.Will be threadlocal/re-used - do not retain references.</p></div>
         </div>
