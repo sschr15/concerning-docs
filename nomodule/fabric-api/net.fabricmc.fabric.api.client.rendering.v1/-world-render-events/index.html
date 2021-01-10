@@ -1,0 +1,354 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>WorldRenderEvents</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+    <link href="../../../styles/style.css" rel="Stylesheet">
+    <link href="../../../styles/logo-styles.css" rel="Stylesheet">
+    <link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+    <link href="../../../styles/main.css" rel="Stylesheet">
+    <script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+    <script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+    <script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+    <script type="text/javascript" src="../../../scripts/main.js" async="async"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="leftColumn">
+        <div id="logo"></div>
+        <div id="paneSearch"></div>
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main">
+        <div id="leftToggler"><span class="icon-toggler"></span></div>
+        <script type="text/javascript" src="../../../scripts/pages.js"></script>
+        <script type="text/javascript" src="../../../scripts/main.js"></script>
+        <div class="main-content" id="content" pageIds="net.fabricmc.fabric.api.client.rendering.v1/WorldRenderEvents///PointingToDeclaration//-916701761">
+          <div class="navigation-wrapper" id="navigation-wrapper">
+            <div class="breadcrumbs"><a href="../../index.html">fabric-api</a>/<a href="../index.html">net.fabricmc.fabric.api.client.rendering.v1</a>/<a href="index.html">WorldRenderEvents</a></div>
+            <div class="pull-right d-flex">
+              <div id="searchBar"></div>
+            </div>
+          </div>
+          <div class="cover ">
+            <h1 class="cover"><span>World</span><wbr></wbr><span>Render</span><wbr></wbr><span>Events</span></h1>
+            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace">public final class <a href="index.html">WorldRenderEvents</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">Mods should use these events to introduce custom rendering during <span data-unresolved-link="net.minecraft.client.render/WorldRenderer/render/#net.minecraft.client.util.math.MatrixStack#float#long#boolean#net.minecraft.client.render.Camera#net.minecraft.client.render.GameRenderer#net.minecraft.client.render.LightmapTextureManager#net.minecraft.util.math.Matrix4f/PointingToDeclaration/">render</span> without adding complicated and conflict-prone injections there. Using these events also enables 3rd-party renderers that make large-scale changes to rendering maintain compatibility by calling any broken event invokers directly. </p><p class="paragraph">The order of events each frame is as follows: </p><ul><li>START </li><li>AFTER_SETUP </li><li>BEFORE_ENTITIES </li><li>AFTER_ENTITIES </li><li>BEFORE_BLOCK_OUTLINE </li><li>BLOCK_OUTLINE (If not cancelled in BEFORE_BLOCK_OUTLINE) </li><li>BEFORE_DEBUG_RENDER </li><li>AFTER_TRANSLUCENT </li><li>LAST </li><li>END</li></ul><p class="paragraph">These events are not dependent on the Fabric rendering API or Indigo but work when those are present.</p></div></div>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+            <div class="tabs-section-body">
+              <h2 class="">Types</h2>
+              <div class="table" data-togglable="Types"><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.AfterEntities%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" anchor-label="AfterEntities" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.AfterEntities%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-after-entities/index.html">AfterEntities</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.AfterEntities%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace">public interface <a href="-after-entities/index.html">AfterEntities</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.AfterSetup%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" anchor-label="AfterSetup" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.AfterSetup%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-after-setup/index.html">AfterSetup</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.AfterSetup%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace">public interface <a href="-after-setup/index.html">AfterSetup</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.AfterTranslucent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" anchor-label="AfterTranslucent" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.AfterTranslucent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-after-translucent/index.html">AfterTranslucent</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.AfterTranslucent%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace">public interface <a href="-after-translucent/index.html">AfterTranslucent</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.BeforeBlockOutline%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" anchor-label="BeforeBlockOutline" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.BeforeBlockOutline%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-before-block-outline/index.html">BeforeBlockOutline</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.BeforeBlockOutline%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace">public interface <a href="-before-block-outline/index.html">BeforeBlockOutline</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.BeforeEntities%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" anchor-label="BeforeEntities" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.BeforeEntities%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-before-entities/index.html">BeforeEntities</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.BeforeEntities%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace">public interface <a href="-before-entities/index.html">BeforeEntities</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.BlockOutline%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" anchor-label="BlockOutline" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.BlockOutline%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-block-outline/index.html">BlockOutline</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.BlockOutline%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace">public interface <a href="-block-outline/index.html">BlockOutline</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.DebugRender%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" anchor-label="DebugRender" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.DebugRender%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-debug-render/index.html">DebugRender</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.DebugRender%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace">public interface <a href="-debug-render/index.html">DebugRender</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.End%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" anchor-label="End" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.End%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-end/index.html">End</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.End%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace">public interface <a href="-end/index.html">End</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.Last%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" anchor-label="Last" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.Last%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-last/index.html">Last</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.Last%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace">public interface <a href="-last/index.html">Last</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.Start%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" anchor-label="Start" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.Start%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-start/index.html">Start</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents.Start%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace">public interface <a href="-start/index.html">Start</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Properties</h2>
+              <div class="table" data-togglable="Properties"><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="AFTER_ENTITIES" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">AFTER_ENTITIES</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="AFTER_ENTITIES" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block">public final static <a href="../../net.fabricmc.fabric.api.event/-event/index.html">Event</a>&lt;<a href="-after-entities/index.html">WorldRenderEvents.AfterEntities</a>&gt; <a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">AFTER_ENTITIES</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="AFTER_ENTITIES" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>Called after entities are rendered and solid entity layershave been drawn to the main frame buffer target, beforeblock entity rendering begins.</div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_SETUP%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="AFTER_SETUP" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_SETUP%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_SETUP%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">AFTER_SETUP</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_SETUP%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_SETUP%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="AFTER_SETUP" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_SETUP%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block">public final static <a href="../../net.fabricmc.fabric.api.event/-event/index.html">Event</a>&lt;<a href="-after-setup/index.html">WorldRenderEvents.AfterSetup</a>&gt; <a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_SETUP%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">AFTER_SETUP</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_SETUP%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="AFTER_SETUP" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_SETUP%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>Called after view Frustum is computed and all render chunks to be rendered areidentified and rebuilt but before chunks are uploaded to GPU.</div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_TRANSLUCENT%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="AFTER_TRANSLUCENT" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_TRANSLUCENT%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_TRANSLUCENT%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">AFTER_TRANSLUCENT</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_TRANSLUCENT%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_TRANSLUCENT%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="AFTER_TRANSLUCENT" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_TRANSLUCENT%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block">public final static <a href="../../net.fabricmc.fabric.api.event/-event/index.html">Event</a>&lt;<a href="-after-translucent/index.html">WorldRenderEvents.AfterTranslucent</a>&gt; <a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_TRANSLUCENT%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">AFTER_TRANSLUCENT</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_TRANSLUCENT%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="AFTER_TRANSLUCENT" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FAFTER_TRANSLUCENT%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>Called after entity, terrain, and particle translucent layers have beendrawn to the framebuffer but before translucency combine has happenedin fabulous mode.</div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_BLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="BEFORE_BLOCK_OUTLINE" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_BLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_BLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">BEFORE_BLOCK_OUTLINE</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_BLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_BLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="BEFORE_BLOCK_OUTLINE" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_BLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block">public final static <a href="../../net.fabricmc.fabric.api.event/-event/index.html">Event</a>&lt;<a href="-before-block-outline/index.html">WorldRenderEvents.BeforeBlockOutline</a>&gt; <a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_BLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">BEFORE_BLOCK_OUTLINE</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_BLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="BEFORE_BLOCK_OUTLINE" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_BLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>Called before default block outline rendering and before checks aredone to determine if it should happen.</div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_DEBUG_RENDER%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="BEFORE_DEBUG_RENDER" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_DEBUG_RENDER%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_DEBUG_RENDER%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">BEFORE_DEBUG_RENDER</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_DEBUG_RENDER%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_DEBUG_RENDER%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="BEFORE_DEBUG_RENDER" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_DEBUG_RENDER%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block">public final static <a href="../../net.fabricmc.fabric.api.event/-event/index.html">Event</a>&lt;<a href="-debug-render/index.html">WorldRenderEvents.DebugRender</a>&gt; <a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_DEBUG_RENDER%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">BEFORE_DEBUG_RENDER</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_DEBUG_RENDER%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="BEFORE_DEBUG_RENDER" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_DEBUG_RENDER%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>Called before vanilla debug renderers are output to the framebuffer.This happens very soon after entities, block breaking and most othernon-translucent renders but before translucency is drawn.</div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="BEFORE_ENTITIES" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">BEFORE_ENTITIES</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="BEFORE_ENTITIES" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block">public final static <a href="../../net.fabricmc.fabric.api.event/-event/index.html">Event</a>&lt;<a href="-before-entities/index.html">WorldRenderEvents.BeforeEntities</a>&gt; <a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">BEFORE_ENTITIES</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="BEFORE_ENTITIES" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBEFORE_ENTITIES%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>Called after the Solid, Cutout and Cutout Mipped terrain layers have been output to the framebuffer.</div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="BLOCK_OUTLINE" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">BLOCK_OUTLINE</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="BLOCK_OUTLINE" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block">public final static <a href="../../net.fabricmc.fabric.api.event/-event/index.html">Event</a>&lt;<a href="-block-outline/index.html">WorldRenderEvents.BlockOutline</a>&gt; <a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">BLOCK_OUTLINE</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="BLOCK_OUTLINE" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FBLOCK_OUTLINE%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>Called after block outline render checks are made and before thedefault block outline render runs.</div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FEND%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="END" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FEND%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FEND%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">END</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FEND%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FEND%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="END" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FEND%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block">public final static <a href="../../net.fabricmc.fabric.api.event/-event/index.html">Event</a>&lt;<a href="-end/index.html">WorldRenderEvents.End</a>&gt; <a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FEND%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">END</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FEND%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="END" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FEND%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>Called after all world rendering is complete and changes to GL state are unwound.</div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FLAST%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="LAST" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FLAST%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FLAST%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">LAST</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FLAST%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FLAST%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="LAST" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FLAST%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block">public final static <a href="../../net.fabricmc.fabric.api.event/-event/index.html">Event</a>&lt;<a href="-last/index.html">WorldRenderEvents.Last</a>&gt; <a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FLAST%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">LAST</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FLAST%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="LAST" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FLAST%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>Called after all framebuffer writes are complete but before all worldrendering is torn down.</div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FSTART%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="START" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FSTART%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FSTART%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">START</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FSTART%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FSTART%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="START" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FSTART%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a><div class="symbol monospace block">public final static <a href="../../net.fabricmc.fabric.api.event/-event/index.html">Event</a>&lt;<a href="-start/index.html">WorldRenderEvents.Start</a>&gt; <a href="index.html#%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FSTART%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761">START</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FSTART%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" anchor-label="START" id="%5Bnet.fabricmc.fabric.api.client.rendering.v1%2FWorldRenderEvents%2FSTART%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F-916701761" data-filterable-set=":dokkaHtml/main"></a>Called before world rendering executes.</div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2020 Copyright</span><span class="pull-right"><span>Sponsored and developed by dokka</span><a href="https://github.com/Kotlin/dokka"><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  </body>
+</html>
+
