@@ -1,6 +1,38 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.event////PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.event/index.html
+$dokka.location:net.fabricmc.fabric.api.event/AutoInvokingEvent///PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.event/-auto-invoking-event/index.html
+$dokka.location:net.fabricmc.fabric.api.event/Event///PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.event/-event/index.html
+$dokka.location:net.fabricmc.fabric.api.event/Event/invoker/#/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.event/-event/invoker.html
+$dokka.location:net.fabricmc.fabric.api.event/Event/register/#T/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.event/-event/register.html
+$dokka.location:net.fabricmc.fabric.api.event/EventFactory///PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.event/-event-factory/index.html
+$dokka.location:net.fabricmc.fabric.api.event/EventFactory/createArrayBacked/#java.lang.Class<? super T>#java.util.function.Function<T[],T>/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.event/-event-factory/create-array-backed.html
+$dokka.location:net.fabricmc.fabric.api.event/EventFactory/createArrayBacked/#java.lang.Class<T>#T#java.util.function.Function<T[],T>/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.event/-event-factory/create-array-backed.html
+$dokka.location:net.fabricmc.fabric.api.event/EventFactory/getHandlerName/#java.lang.Object/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.event/-event-factory/get-handler-name.html
+$dokka.location:net.fabricmc.fabric.api.event/EventFactory/invalidate/#/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.event/-event-factory/invalidate.html
+$dokka.location:net.fabricmc.fabric.api.event/EventFactory/isProfilingEnabled/#/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.event/-event-factory/is-profiling-enabled.html
+$dokka.location:net.fabricmc.fabric.api.util////PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/index.html
+$dokka.location:net.fabricmc.fabric.api.util/BooleanFunction///PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-boolean-function/index.html
+$dokka.location:net.fabricmc.fabric.api.util/BooleanFunction/apply/#boolean/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-boolean-function/apply.html
+$dokka.location:net.fabricmc.fabric.api.util/NbtType///PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-nbt-type/index.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState.DEFAULT///PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/-d-e-f-a-u-l-t/index.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState.FALSE///PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/-f-a-l-s-e/index.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState.TRUE///PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/-t-r-u-e/index.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState///PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/index.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState/get/#/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/get.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState/getBoxed/#/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/get-boxed.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState/map/#net.fabricmc.fabric.api.util.BooleanFunction<? extends T>/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/map.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState/of/#boolean/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/of.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState/of/#java.lang.Boolean/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/of.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState/orElse/#boolean/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/or-else.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState/orElseGet/#java.util.function.BooleanSupplier/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/or-else-get.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState/orElseThrow/#java.util.function.Supplier<X>/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/or-else-throw.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState/valueOf/#java.lang.String/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/value-of.html
+$dokka.location:net.fabricmc.fabric.api.util/TriState/values/#/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.api.util/-tri-state/values.html
+$dokka.location:net.fabricmc.fabric.impl.base.event////PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.impl.base.event/index.html
+$dokka.location:net.fabricmc.fabric.impl.base.event/EventFactoryImpl///PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.impl.base.event/-event-factory-impl/index.html
+$dokka.location:net.fabricmc.fabric.impl.base.event/EventFactoryImpl/createArrayBacked/#java.lang.Class<? super T>#java.util.function.Function<T[],T>/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.impl.base.event/-event-factory-impl/create-array-backed.html
+$dokka.location:net.fabricmc.fabric.impl.base.event/EventFactoryImpl/invalidate/#/PointingToDeclaration/fabric-api-base/net.fabricmc.fabric.impl.base.event/-event-factory-impl/invalidate.html
 net.fabricmc.fabric.api.event
 net.fabricmc.fabric.api.util
 net.fabricmc.fabric.impl.base.event

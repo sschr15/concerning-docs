@@ -1,6 +1,18 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.rendering.data.v1////PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.api.rendering.data.v1/index.html
+$dokka.location:net.fabricmc.fabric.api.rendering.data.v1/RenderAttachedBlockView///PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.api.rendering.data.v1/-render-attached-block-view/index.html
+$dokka.location:net.fabricmc.fabric.api.rendering.data.v1/RenderAttachedBlockView/getBlockEntityRenderAttachment/#net.minecraft.util.math.BlockPos/PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.api.rendering.data.v1/-render-attached-block-view/get-block-entity-render-attachment.html
+$dokka.location:net.fabricmc.fabric.api.rendering.data.v1/RenderAttachmentBlockEntity///PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.api.rendering.data.v1/-render-attachment-block-entity/index.html
+$dokka.location:net.fabricmc.fabric.api.rendering.data.v1/RenderAttachmentBlockEntity/getRenderAttachmentData/#/PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.api.rendering.data.v1/-render-attachment-block-entity/get-render-attachment-data.html
+$dokka.location:net.fabricmc.fabric.mixin.rendering.data.attachment.client////PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.mixin.rendering.data.attachment.client/index.html
+$dokka.location:net.fabricmc.fabric.mixin.rendering.data.attachment.client/MixinChunkRendererRegion///PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.mixin.rendering.data.attachment.client/-mixin-chunk-renderer-region/index.html
+$dokka.location:net.fabricmc.fabric.mixin.rendering.data.attachment.client/MixinChunkRendererRegion/getBlockEntityRenderAttachment/#net.minecraft.util.math.BlockPos/PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.mixin.rendering.data.attachment.client/-mixin-chunk-renderer-region/get-block-entity-render-attachment.html
+$dokka.location:net.fabricmc.fabric.mixin.rendering.data.attachment.client/MixinChunkRendererRegion/init/#net.minecraft.world.World#int#int#net.minecraft.world.chunk.WorldChunk[][]#net.minecraft.util.math.BlockPos#net.minecraft.util.math.BlockPos#org.spongepowered.asm.mixin.injection.callback.CallbackInfo/PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.mixin.rendering.data.attachment.client/-mixin-chunk-renderer-region/init.html
+$dokka.location:net.fabricmc.fabric.mixin.rendering.data.attachment////PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.mixin.rendering.data.attachment/index.html
+$dokka.location:net.fabricmc.fabric.mixin.rendering.data.attachment/MixinBlockEntity///PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.mixin.rendering.data.attachment/-mixin-block-entity/index.html
+$dokka.location:net.fabricmc.fabric.mixin.rendering.data.attachment/MixinBlockEntity/getRenderAttachmentData/#/PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.mixin.rendering.data.attachment/-mixin-block-entity/get-render-attachment-data.html
+$dokka.location:net.fabricmc.fabric.mixin.rendering.data.attachment/MixinViewableWorld///PointingToDeclaration/fabric-rendering-data-attachment-v1/net.fabricmc.fabric.mixin.rendering.data.attachment/-mixin-viewable-world/index.html
 net.fabricmc.fabric.api.rendering.data.v1
 net.fabricmc.fabric.mixin.rendering.data.attachment
 net.fabricmc.fabric.mixin.rendering.data.attachment.client

@@ -1,6 +1,21 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.client.keybinding.v1////PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.api.client.keybinding.v1/index.html
+$dokka.location:net.fabricmc.fabric.api.client.keybinding.v1/KeyBindingHelper///PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.api.client.keybinding.v1/-key-binding-helper/index.html
+$dokka.location:net.fabricmc.fabric.api.client.keybinding.v1/KeyBindingHelper/getBoundKeyOf/#net.minecraft.client.option.KeyBinding/PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.api.client.keybinding.v1/-key-binding-helper/get-bound-key-of.html
+$dokka.location:net.fabricmc.fabric.api.client.keybinding.v1/KeyBindingHelper/registerKeyBinding/#net.minecraft.client.option.KeyBinding/PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.api.client.keybinding.v1/-key-binding-helper/register-key-binding.html
+$dokka.location:net.fabricmc.fabric.impl.client.keybinding////PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.impl.client.keybinding/index.html
+$dokka.location:net.fabricmc.fabric.impl.client.keybinding/KeyBindingRegistryImpl///PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.impl.client.keybinding/-key-binding-registry-impl/index.html
+$dokka.location:net.fabricmc.fabric.impl.client.keybinding/KeyBindingRegistryImpl/addCategory/#java.lang.String/PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.impl.client.keybinding/-key-binding-registry-impl/add-category.html
+$dokka.location:net.fabricmc.fabric.impl.client.keybinding/KeyBindingRegistryImpl/process/#net.minecraft.client.option.KeyBinding[]/PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.impl.client.keybinding/-key-binding-registry-impl/process.html
+$dokka.location:net.fabricmc.fabric.impl.client.keybinding/KeyBindingRegistryImpl/registerKeyBinding/#net.minecraft.client.option.KeyBinding/PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.impl.client.keybinding/-key-binding-registry-impl/register-key-binding.html
+$dokka.location:net.fabricmc.fabric.mixin.client.keybinding////PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.mixin.client.keybinding/index.html
+$dokka.location:net.fabricmc.fabric.mixin.client.keybinding/KeyBindingAccessor///PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.mixin.client.keybinding/-key-binding-accessor/index.html
+$dokka.location:net.fabricmc.fabric.mixin.client.keybinding/KeyBindingAccessor/fabric_getCategoryMap/#/PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.mixin.client.keybinding/-key-binding-accessor/fabric_get-category-map.html
+$dokka.location:net.fabricmc.fabric.mixin.client.keybinding/KeyCodeAccessor///PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.mixin.client.keybinding/-key-code-accessor/index.html
+$dokka.location:net.fabricmc.fabric.mixin.client.keybinding/KeyCodeAccessor/fabric_getBoundKey/#/PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.mixin.client.keybinding/-key-code-accessor/fabric_get-bound-key.html
+$dokka.location:net.fabricmc.fabric.mixin.client.keybinding/MixinGameOptions///PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.mixin.client.keybinding/-mixin-game-options/index.html
+$dokka.location:net.fabricmc.fabric.mixin.client.keybinding/MixinGameOptions/loadHook/#org.spongepowered.asm.mixin.injection.callback.CallbackInfo/PointingToDeclaration/fabric-key-binding-api-v1/net.fabricmc.fabric.mixin.client.keybinding/-mixin-game-options/load-hook.html
 net.fabricmc.fabric.api.client.keybinding.v1
 net.fabricmc.fabric.impl.client.keybinding
 net.fabricmc.fabric.mixin.client.keybinding

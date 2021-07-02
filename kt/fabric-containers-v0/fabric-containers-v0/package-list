@@ -1,9 +1,0 @@
-$dokka.format:html-v1
-$dokka.linkExtension:html
-
-net.fabricmc.fabric.api.client.screen
-net.fabricmc.fabric.api.container
-net.fabricmc.fabric.impl.client.container
-net.fabricmc.fabric.impl.container
-net.fabricmc.fabric.mixin.container
-

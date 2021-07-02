@@ -1,6 +1,26 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.client.texture////PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.api.client.texture/index.html
+$dokka.location:net.fabricmc.fabric.api.client.texture/DependentSprite///PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.api.client.texture/-dependent-sprite/index.html
+$dokka.location:net.fabricmc.fabric.api.client.texture/DependentSprite/getDependencies/#/PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.api.client.texture/-dependent-sprite/get-dependencies.html
+$dokka.location:net.fabricmc.fabric.api.event.client////PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.api.event.client/index.html
+$dokka.location:net.fabricmc.fabric.api.event.client/ClientSpriteRegistryCallback.Registry///PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.api.event.client/-client-sprite-registry-callback/-registry/index.html
+$dokka.location:net.fabricmc.fabric.api.event.client/ClientSpriteRegistryCallback.Registry/ClientSpriteRegistryCallback.Registry/#java.util.Map<net.minecraft.util.Identifier,net.minecraft.client.texture.Sprite>#java.util.function.Consumer<net.minecraft.util.Identifier>/PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.api.event.client/-client-sprite-registry-callback/-registry/-client-sprite-registry-callback.-registry.html
+$dokka.location:net.fabricmc.fabric.api.event.client/ClientSpriteRegistryCallback.Registry/register/#net.minecraft.client.texture.Sprite/PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.api.event.client/-client-sprite-registry-callback/-registry/register.html
+$dokka.location:net.fabricmc.fabric.api.event.client/ClientSpriteRegistryCallback.Registry/register/#net.minecraft.util.Identifier/PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.api.event.client/-client-sprite-registry-callback/-registry/register.html
+$dokka.location:net.fabricmc.fabric.api.event.client/ClientSpriteRegistryCallback///PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.api.event.client/-client-sprite-registry-callback/index.html
+$dokka.location:net.fabricmc.fabric.api.event.client/ClientSpriteRegistryCallback/event/#net.minecraft.util.Identifier/PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.api.event.client/-client-sprite-registry-callback/event.html
+$dokka.location:net.fabricmc.fabric.api.event.client/ClientSpriteRegistryCallback/registerBlockAtlas/#net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback/PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.api.event.client/-client-sprite-registry-callback/register-block-atlas.html
+$dokka.location:net.fabricmc.fabric.api.event.client/ClientSpriteRegistryCallback/registerSprites/#net.minecraft.client.texture.SpriteAtlasTexture#net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback.Registry/PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.api.event.client/-client-sprite-registry-callback/register-sprites.html
+$dokka.location:net.fabricmc.fabric.impl.client.texture////PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.impl.client.texture/index.html
+$dokka.location:net.fabricmc.fabric.impl.client.texture/FabricSprite///PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.impl.client.texture/-fabric-sprite/index.html
+$dokka.location:net.fabricmc.fabric.impl.client.texture/FabricSprite/FabricSprite/#net.minecraft.client.texture.SpriteAtlasTexture#net.minecraft.client.texture.Sprite.Info#int#int#int#int#int#net.minecraft.client.texture.NativeImage/PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.impl.client.texture/-fabric-sprite/-fabric-sprite.html
+$dokka.location:net.fabricmc.fabric.impl.client.texture/SpriteRegistryCallbackHolder///PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.impl.client.texture/-sprite-registry-callback-holder/index.html
+$dokka.location:net.fabricmc.fabric.impl.client.texture/SpriteRegistryCallbackHolder/eventLocal/#net.minecraft.util.Identifier/PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.impl.client.texture/-sprite-registry-callback-holder/event-local.html
+$dokka.location:net.fabricmc.fabric.mixin.client.texture////PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.mixin.client.texture/index.html
+$dokka.location:net.fabricmc.fabric.mixin.client.texture/MixinSpriteAtlasTexture///PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.mixin.client.texture/-mixin-sprite-atlas-texture/index.html
+$dokka.location:net.fabricmc.fabric.mixin.client.texture/MixinSpriteAtlasTexture/beforeSpriteLoad/#java.util.Set<net.minecraft.util.Identifier>/PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.mixin.client.texture/-mixin-sprite-atlas-texture/before-sprite-load.html
+$dokka.location:net.fabricmc.fabric.mixin.client.texture/MixinSpriteAtlasTexture/getId/#/PointingToDeclaration/fabric-textures-v0/net.fabricmc.fabric.mixin.client.texture/-mixin-sprite-atlas-texture/get-id.html
 net.fabricmc.fabric.api.client.texture
 net.fabricmc.fabric.api.event.client
 net.fabricmc.fabric.impl.client.texture

@@ -1,6 +1,30 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.event.client////PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.client/index.html
+$dokka.location:net.fabricmc.fabric.api.event.client/ClientTickCallback///PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.client/-client-tick-callback/index.html
+$dokka.location:net.fabricmc.fabric.api.event.client/ClientTickCallback/tick/#net.minecraft.client.MinecraftClient/PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.client/-client-tick-callback/tick.html
+$dokka.location:net.fabricmc.fabric.api.event.client/ItemTooltipCallback///PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.client/-item-tooltip-callback/index.html
+$dokka.location:net.fabricmc.fabric.api.event.client/ItemTooltipCallback/getTooltip/#net.minecraft.item.ItemStack#net.minecraft.client.item.TooltipContext#java.util.List<net.minecraft.text.Text>/PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.client/-item-tooltip-callback/get-tooltip.html
+$dokka.location:net.fabricmc.fabric.api.event.server////PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.server/index.html
+$dokka.location:net.fabricmc.fabric.api.event.server/ServerStartCallback///PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.server/-server-start-callback/index.html
+$dokka.location:net.fabricmc.fabric.api.event.server/ServerStartCallback/onStartServer/#net.minecraft.server.MinecraftServer/PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.server/-server-start-callback/on-start-server.html
+$dokka.location:net.fabricmc.fabric.api.event.server/ServerStopCallback///PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.server/-server-stop-callback/index.html
+$dokka.location:net.fabricmc.fabric.api.event.server/ServerStopCallback/onStopServer/#net.minecraft.server.MinecraftServer/PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.server/-server-stop-callback/on-stop-server.html
+$dokka.location:net.fabricmc.fabric.api.event.server/ServerTickCallback///PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.server/-server-tick-callback/index.html
+$dokka.location:net.fabricmc.fabric.api.event.server/ServerTickCallback/tick/#net.minecraft.server.MinecraftServer/PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.server/-server-tick-callback/tick.html
+$dokka.location:net.fabricmc.fabric.api.event.world////PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.world/index.html
+$dokka.location:net.fabricmc.fabric.api.event.world/WorldTickCallback///PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.world/-world-tick-callback/index.html
+$dokka.location:net.fabricmc.fabric.api.event.world/WorldTickCallback/tick/#net.minecraft.world.World/PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.api.event.world/-world-tick-callback/tick.html
+$dokka.location:net.fabricmc.fabric.impl.event.lifecycle.client////PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.impl.event.lifecycle.client/index.html
+$dokka.location:net.fabricmc.fabric.impl.event.lifecycle.client/LegacyClientEventInvokers///PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.impl.event.lifecycle.client/-legacy-client-event-invokers/index.html
+$dokka.location:net.fabricmc.fabric.impl.event.lifecycle.client/LegacyClientEventInvokers/onInitializeClient/#/PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.impl.event.lifecycle.client/-legacy-client-event-invokers/on-initialize-client.html
+$dokka.location:net.fabricmc.fabric.impl.event.lifecycle////PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.impl.event.lifecycle/index.html
+$dokka.location:net.fabricmc.fabric.impl.event.lifecycle/LegacyEventInvokers///PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.impl.event.lifecycle/-legacy-event-invokers/index.html
+$dokka.location:net.fabricmc.fabric.impl.event.lifecycle/LegacyEventInvokers/onInitialize/#/PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.impl.event.lifecycle/-legacy-event-invokers/on-initialize.html
+$dokka.location:net.fabricmc.fabric.mixin.event.lifecycle////PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.mixin.event.lifecycle/index.html
+$dokka.location:net.fabricmc.fabric.mixin.event.lifecycle/MixinMinecraftServer///PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.mixin.event.lifecycle/-mixin-minecraft-server/index.html
+$dokka.location:net.fabricmc.fabric.mixin.event.lifecycle/MixinMinecraftServer/afterSetupServer/#org.spongepowered.asm.mixin.injection.callback.CallbackInfo/PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.mixin.event.lifecycle/-mixin-minecraft-server/after-setup-server.html
+$dokka.location:net.fabricmc.fabric.mixin.event.lifecycle/MixinMinecraftServer/beforeShutdownServer/#org.spongepowered.asm.mixin.injection.callback.CallbackInfo/PointingToDeclaration/fabric-events-lifecycle-v0/net.fabricmc.fabric.mixin.event.lifecycle/-mixin-minecraft-server/before-shutdown-server.html
 net.fabricmc.fabric.api.event.client
 net.fabricmc.fabric.api.event.server
 net.fabricmc.fabric.api.event.world

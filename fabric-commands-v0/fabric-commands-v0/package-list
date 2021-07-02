@@ -1,5 +1,7 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.registry////PointingToDeclaration/fabric-commands-v0/net.fabricmc.fabric.api.registry/index.html
+$dokka.location:net.fabricmc.fabric.api.registry/CommandRegistry///PointingToDeclaration/fabric-commands-v0/net.fabricmc.fabric.api.registry/-command-registry/index.html
+$dokka.location:net.fabricmc.fabric.api.registry/CommandRegistry/register/#boolean#java.util.function.Consumer<com.mojang.brigadier.CommandDispatcher<net.minecraft.server.command.ServerCommandSource>>/PointingToDeclaration/fabric-commands-v0/net.fabricmc.fabric.api.registry/-command-registry/register.html
 net.fabricmc.fabric.api.registry
 

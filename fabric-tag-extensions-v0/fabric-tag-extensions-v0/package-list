@@ -1,6 +1,41 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.tag////PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/index.html
+$dokka.location:net.fabricmc.fabric.api.tag/FabricDataGeneratorTagBuilder///PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-fabric-data-generator-tag-builder/index.html
+$dokka.location:net.fabricmc.fabric.api.tag/FabricDataGeneratorTagBuilder/addOptionalObject/#net.minecraft.util.Identifier/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-fabric-data-generator-tag-builder/add-optional-object.html
+$dokka.location:net.fabricmc.fabric.api.tag/FabricDataGeneratorTagBuilder/addOptionalTag/#net.minecraft.util.Identifier/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-fabric-data-generator-tag-builder/add-optional-tag.html
+$dokka.location:net.fabricmc.fabric.api.tag/FabricTag///PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-fabric-tag/index.html
+$dokka.location:net.fabricmc.fabric.api.tag/FabricTag/hasBeenReplaced/#/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-fabric-tag/has-been-replaced.html
+$dokka.location:net.fabricmc.fabric.api.tag/FabricTagBuilder///PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-fabric-tag-builder/index.html
+$dokka.location:net.fabricmc.fabric.api.tag/FabricTagBuilder/clearTagEntries/#/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-fabric-tag-builder/clear-tag-entries.html
+$dokka.location:net.fabricmc.fabric.api.tag/TagRegistry///PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-tag-registry/index.html
+$dokka.location:net.fabricmc.fabric.api.tag/TagRegistry/block/#net.minecraft.util.Identifier/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-tag-registry/block.html
+$dokka.location:net.fabricmc.fabric.api.tag/TagRegistry/create/#net.minecraft.util.Identifier#java.util.function.Supplier<net.minecraft.tag.TagGroup<T>>/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-tag-registry/create.html
+$dokka.location:net.fabricmc.fabric.api.tag/TagRegistry/entityType/#net.minecraft.util.Identifier/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-tag-registry/entity-type.html
+$dokka.location:net.fabricmc.fabric.api.tag/TagRegistry/fluid/#net.minecraft.util.Identifier/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-tag-registry/fluid.html
+$dokka.location:net.fabricmc.fabric.api.tag/TagRegistry/item/#net.minecraft.util.Identifier/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.api.tag/-tag-registry/item.html
+$dokka.location:net.fabricmc.fabric.impl.tag.extension////PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.impl.tag.extension/index.html
+$dokka.location:net.fabricmc.fabric.impl.tag.extension/FabricTagHooks///PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.impl.tag.extension/-fabric-tag-hooks/index.html
+$dokka.location:net.fabricmc.fabric.impl.tag.extension/FabricTagHooks/fabric_setExtraData/#int/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.impl.tag.extension/-fabric-tag-hooks/fabric_set-extra-data.html
+$dokka.location:net.fabricmc.fabric.impl.tag.extension/TagDelegate///PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.impl.tag.extension/-tag-delegate/index.html
+$dokka.location:net.fabricmc.fabric.impl.tag.extension/TagDelegate/TagDelegate/#net.minecraft.util.Identifier#java.util.function.Supplier<net.minecraft.tag.TagGroup<T>>/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.impl.tag.extension/-tag-delegate/-tag-delegate.html
+$dokka.location:net.fabricmc.fabric.impl.tag.extension/TagDelegate/contains/#T/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.impl.tag.extension/-tag-delegate/contains.html
+$dokka.location:net.fabricmc.fabric.impl.tag.extension/TagDelegate/fabric_setExtraData/#int/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.impl.tag.extension/-tag-delegate/fabric_set-extra-data.html
+$dokka.location:net.fabricmc.fabric.impl.tag.extension/TagDelegate/getId/#/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.impl.tag.extension/-tag-delegate/get-id.html
+$dokka.location:net.fabricmc.fabric.impl.tag.extension/TagDelegate/hasBeenReplaced/#/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.impl.tag.extension/-tag-delegate/has-been-replaced.html
+$dokka.location:net.fabricmc.fabric.impl.tag.extension/TagDelegate/values/#/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.impl.tag.extension/-tag-delegate/values.html
+$dokka.location:net.fabricmc.fabric.mixin.tag.extension////PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.mixin.tag.extension/index.html
+$dokka.location:net.fabricmc.fabric.mixin.tag.extension/AccessorFluidTags///PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.mixin.tag.extension/-accessor-fluid-tags/index.html
+$dokka.location:net.fabricmc.fabric.mixin.tag.extension/AccessorFluidTags/getRequiredTags/#/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.mixin.tag.extension/-accessor-fluid-tags/get-required-tags.html
+$dokka.location:net.fabricmc.fabric.mixin.tag.extension/MixinObjectBuilder///PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.mixin.tag.extension/-mixin-object-builder/index.html
+$dokka.location:net.fabricmc.fabric.mixin.tag.extension/MixinObjectBuilder/addOptionalObject/#net.minecraft.util.Identifier/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.mixin.tag.extension/-mixin-object-builder/add-optional-object.html
+$dokka.location:net.fabricmc.fabric.mixin.tag.extension/MixinObjectBuilder/addOptionalTag/#net.minecraft.util.Identifier/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.mixin.tag.extension/-mixin-object-builder/add-optional-tag.html
+$dokka.location:net.fabricmc.fabric.mixin.tag.extension/MixinTagBuilder///PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.mixin.tag.extension/-mixin-tag-builder/index.html
+$dokka.location:net.fabricmc.fabric.mixin.tag.extension/MixinTagBuilder/clearTagEntries/#/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.mixin.tag.extension/-mixin-tag-builder/clear-tag-entries.html
+$dokka.location:net.fabricmc.fabric.mixin.tag.extension/MixinTagBuilder/onFromJsonClear/#com.google.gson.JsonObject#java.lang.String#org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable<net.minecraft.tag.Tag.Builder>/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.mixin.tag.extension/-mixin-tag-builder/on-from-json-clear.html
+$dokka.location:net.fabricmc.fabric.mixin.tag.extension/MixinTagImpl///PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.mixin.tag.extension/-mixin-tag-impl/index.html
+$dokka.location:net.fabricmc.fabric.mixin.tag.extension/MixinTagImpl/fabric_setExtraData/#int/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.mixin.tag.extension/-mixin-tag-impl/fabric_set-extra-data.html
+$dokka.location:net.fabricmc.fabric.mixin.tag.extension/MixinTagImpl/hasBeenReplaced/#/PointingToDeclaration/fabric-tag-extensions-v0/net.fabricmc.fabric.mixin.tag.extension/-mixin-tag-impl/has-been-replaced.html
 net.fabricmc.fabric.api.tag
 net.fabricmc.fabric.impl.tag.extension
 net.fabricmc.fabric.mixin.tag.extension

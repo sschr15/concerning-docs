@@ -1,7 +1,0 @@
-$dokka.format:html-v1
-$dokka.linkExtension:html
-
-net.fabricmc.fabric.api.rendering.data.v1
-net.fabricmc.fabric.mixin.rendering.data.attachment
-net.fabricmc.fabric.mixin.rendering.data.attachment.client
-

@@ -1,6 +1,41 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.client.item.v1////PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.client.item.v1/index.html
+$dokka.location:net.fabricmc.fabric.api.client.item.v1/ItemTooltipCallback///PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.client.item.v1/-item-tooltip-callback/index.html
+$dokka.location:net.fabricmc.fabric.api.client.item.v1/ItemTooltipCallback/getTooltip/#net.minecraft.item.ItemStack#net.minecraft.client.item.TooltipContext#java.util.List<net.minecraft.text.Text>/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.client.item.v1/-item-tooltip-callback/get-tooltip.html
+$dokka.location:net.fabricmc.fabric.api.item.v1////PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/index.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/CustomDamageHandler///PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-custom-damage-handler/index.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/CustomDamageHandler/damage/#net.minecraft.item.ItemStack#int#net.minecraft.entity.LivingEntity#java.util.function.Consumer<net.minecraft.entity.LivingEntity>/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-custom-damage-handler/damage.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/EquipmentSlotProvider///PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-equipment-slot-provider/index.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/EquipmentSlotProvider/getPreferredEquipmentSlot/#net.minecraft.item.ItemStack/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-equipment-slot-provider/get-preferred-equipment-slot.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/FabricItemSettings///PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-fabric-item-settings/index.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/FabricItemSettings/customDamage/#net.fabricmc.fabric.api.item.v1.CustomDamageHandler/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-fabric-item-settings/custom-damage.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/FabricItemSettings/equipmentSlot/#net.fabricmc.fabric.api.item.v1.EquipmentSlotProvider/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-fabric-item-settings/equipment-slot.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/FabricItemSettings/fireproof/#/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-fabric-item-settings/fireproof.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/FabricItemSettings/food/#net.minecraft.item.FoodComponent/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-fabric-item-settings/food.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/FabricItemSettings/group/#net.minecraft.item.ItemGroup/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-fabric-item-settings/group.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/FabricItemSettings/maxCount/#int/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-fabric-item-settings/max-count.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/FabricItemSettings/maxDamage/#int/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-fabric-item-settings/max-damage.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/FabricItemSettings/maxDamageIfAbsent/#int/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-fabric-item-settings/max-damage-if-absent.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/FabricItemSettings/rarity/#net.minecraft.util.Rarity/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-fabric-item-settings/rarity.html
+$dokka.location:net.fabricmc.fabric.api.item.v1/FabricItemSettings/recipeRemainder/#net.minecraft.item.Item/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.api.item.v1/-fabric-item-settings/recipe-remainder.html
+$dokka.location:net.fabricmc.fabric.impl.item////PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.impl.item/index.html
+$dokka.location:net.fabricmc.fabric.impl.item/FabricItemInternals.ExtraData///PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.impl.item/-fabric-item-internals/-extra-data/index.html
+$dokka.location:net.fabricmc.fabric.impl.item/FabricItemInternals.ExtraData/customDamage/#net.fabricmc.fabric.api.item.v1.CustomDamageHandler/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.impl.item/-fabric-item-internals/-extra-data/custom-damage.html
+$dokka.location:net.fabricmc.fabric.impl.item/FabricItemInternals.ExtraData/equipmentSlot/#net.fabricmc.fabric.api.item.v1.EquipmentSlotProvider/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.impl.item/-fabric-item-internals/-extra-data/equipment-slot.html
+$dokka.location:net.fabricmc.fabric.impl.item/FabricItemInternals///PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.impl.item/-fabric-item-internals/index.html
+$dokka.location:net.fabricmc.fabric.impl.item/FabricItemInternals/computeExtraData/#net.minecraft.item.Item.Settings/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.impl.item/-fabric-item-internals/compute-extra-data.html
+$dokka.location:net.fabricmc.fabric.impl.item/FabricItemInternals/onBuild/#net.minecraft.item.Item.Settings#net.minecraft.item.Item/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.impl.item/-fabric-item-internals/on-build.html
+$dokka.location:net.fabricmc.fabric.impl.item/ItemExtensions///PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.impl.item/-item-extensions/index.html
+$dokka.location:net.fabricmc.fabric.impl.item/ItemExtensions/fabric_getCustomDamageHandler/#/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.impl.item/-item-extensions/fabric_get-custom-damage-handler.html
+$dokka.location:net.fabricmc.fabric.impl.item/ItemExtensions/fabric_getEquipmentSlotProvider/#/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.impl.item/-item-extensions/fabric_get-equipment-slot-provider.html
+$dokka.location:net.fabricmc.fabric.impl.item/ItemExtensions/fabric_setCustomDamageHandler/#net.fabricmc.fabric.api.item.v1.CustomDamageHandler/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.impl.item/-item-extensions/fabric_set-custom-damage-handler.html
+$dokka.location:net.fabricmc.fabric.impl.item/ItemExtensions/fabric_setEquipmentSlotProvider/#net.fabricmc.fabric.api.item.v1.EquipmentSlotProvider/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.impl.item/-item-extensions/fabric_set-equipment-slot-provider.html
+$dokka.location:net.fabricmc.fabric.mixin.item.client////PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.mixin.item.client/index.html
+$dokka.location:net.fabricmc.fabric.mixin.item.client/ItemStackMixin///PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.mixin.item.client/-item-stack-mixin/index.html
+$dokka.location:net.fabricmc.fabric.mixin.item////PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.mixin.item/index.html
+$dokka.location:net.fabricmc.fabric.mixin.item/ItemStackMixin///PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.mixin.item/-item-stack-mixin/index.html
+$dokka.location:net.fabricmc.fabric.mixin.item/ItemStackMixin/getItem/#/PointingToDeclaration/fabric-item-api-v1/net.fabricmc.fabric.mixin.item/-item-stack-mixin/get-item.html
 net.fabricmc.fabric.api.client.item.v1
 net.fabricmc.fabric.api.item.v1
 net.fabricmc.fabric.impl.item

@@ -1,5 +1,7 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.mixin.crash.report.info////PointingToDeclaration/fabric-crash-report-info-v1/net.fabricmc.fabric.mixin.crash.report.info/index.html
+$dokka.location:net.fabricmc.fabric.mixin.crash.report.info/MixinCrashReport///PointingToDeclaration/fabric-crash-report-info-v1/net.fabricmc.fabric.mixin.crash.report.info/-mixin-crash-report/index.html
+$dokka.location:net.fabricmc.fabric.mixin.crash.report.info/MixinCrashReport/addSection/#java.lang.String#java.util.function.Supplier<java.lang.String>/PointingToDeclaration/fabric-crash-report-info-v1/net.fabricmc.fabric.mixin.crash.report.info/-mixin-crash-report/add-section.html
 net.fabricmc.fabric.mixin.crash.report.info
 

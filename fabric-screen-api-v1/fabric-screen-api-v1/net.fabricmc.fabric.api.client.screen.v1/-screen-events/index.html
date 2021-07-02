@@ -1,0 +1,289 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>ScreenEvents</title>
+<link href="../../../../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script><script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script>  </head>
+  <body>
+    <div id="container">
+      <div id="leftColumn"><a href="../../../index.html">
+          <div id="logo"></div>
+        </a>
+        <div id="paneSearch"></div>
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main">
+        <div id="leftToggler"><span class="icon-toggler"></span></div>
+<script type="text/javascript" src="../../../scripts/main.js"></script>        <div class="main-content" id="content" pageIds="fabric-screen-api-v1::net.fabricmc.fabric.api.client.screen.v1/ScreenEvents///PointingToDeclaration//-2132410162">
+          <div class="navigation-wrapper" id="navigation-wrapper">
+            <div class="breadcrumbs"><a href="../../../index.html">fabric-screen-api-v1</a>/<a href="../index.html">net.fabricmc.fabric.api.client.screen.v1</a>/<a href="index.html">ScreenEvents</a></div>
+            <div class="pull-right d-flex">
+              <div id="searchBar"></div>
+            </div>
+          </div>
+          <div class="cover ">
+            <h1 class="cover"><span>Screen</span><wbr></wbr><span>Events</span></h1>
+            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace">public final class <a href="index.html">ScreenEvents</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">Holds events related to <span data-unresolved-link="net.minecraft.client.gui.screen/Screen///PointingToDeclaration/">Screen</span>s. </p><p class="paragraph">Some events require a screen instance in order to obtain an event instance. The events that require a screen instance can be identified by the use of a method passing a screen instance. All events in <a href="../-screen-keyboard-events/index.html">ScreenKeyboardEvents</a> and <a href="../-screen-mouse-events/index.html">ScreenMouseEvents</a> require a screen instance. This registration model is used since a screen being (re)initialized will reset the screen to it's default state, therefore reverting all changes a mod developer may have applied to a screen. Furthermore this design was chosen to reduce the amount of wasted iterations of events as a mod developer would only need to register screen events for rendering, ticking, keyboards and mice if needed on a per instance basis. </p><p class="paragraph">The primary entrypoint into a screen is when it is being opened, this is signified by an event <a href="index.html#252344957%2FProperties%2F-2132410162">before</a> and <a href="index.html#543730906%2FProperties%2F-2132410162">after</a> initialization of the screen.</p></div></div>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button><button class="section-tab" data-togglable="Sources">Sources</button><button class="section-tab" data-togglable="See also">See also</button></div>
+            <div class="tabs-section-body">
+              <h2 class="">See also</h2>
+              <div data-togglable="See also">
+                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="See also"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div data-togglable="See also"><div class="table" data-togglable="See also"><div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="main-subrow keyValue WithExtraAttributes RowTitle"><div class=""><span class="inline-flex"><a href="../-screens/index.html">net.fabricmc.fabric.api.client.screen.v1.Screens</a></span><span class="inline-flex"><div data-togglable="See also"></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="main-subrow keyValue WithExtraAttributes RowTitle"><div class=""><span class="inline-flex"><a href="../-screen-keyboard-events/index.html">net.fabricmc.fabric.api.client.screen.v1.ScreenKeyboardEvents</a></span><span class="inline-flex"><div data-togglable="See also"></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="main-subrow keyValue WithExtraAttributes RowTitle"><div class=""><span class="inline-flex"><a href="../-screen-mouse-events/index.html">net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents</a></span><span class="inline-flex"><div data-togglable="See also"></div></span></div><div></div></div></div></div></div></div></div>
+              </div>
+              <h2 class="">Types</h2>
+              <div class="table" data-togglable="Types"><a data-name="370626964%2FClasslikes%2F-2132410162" anchor-label="AfterInit" id="370626964%2FClasslikes%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-after-init/index.html">AfterInit</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="370626964%2FClasslikes%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace">public interface <a href="-after-init/index.html">AfterInit</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1507547378%2FClasslikes%2F-2132410162" anchor-label="AfterRender" id="-1507547378%2FClasslikes%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-after-render/index.html">AfterRender</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1507547378%2FClasslikes%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace">public interface <a href="-after-render/index.html">AfterRender</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1075401305%2FClasslikes%2F-2132410162" anchor-label="AfterTick" id="-1075401305%2FClasslikes%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-after-tick/index.html">AfterTick</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1075401305%2FClasslikes%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace">public interface <a href="-after-tick/index.html">AfterTick</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1684681005%2FClasslikes%2F-2132410162" anchor-label="BeforeInit" id="-1684681005%2FClasslikes%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-before-init/index.html">BeforeInit</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1684681005%2FClasslikes%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace">public interface <a href="-before-init/index.html">BeforeInit</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-973549427%2FClasslikes%2F-2132410162" anchor-label="BeforeRender" id="-973549427%2FClasslikes%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-before-render/index.html">BeforeRender</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-973549427%2FClasslikes%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace">public interface <a href="-before-render/index.html">BeforeRender</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1164258022%2FClasslikes%2F-2132410162" anchor-label="BeforeTick" id="1164258022%2FClasslikes%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-before-tick/index.html">BeforeTick</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1164258022%2FClasslikes%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace">public interface <a href="-before-tick/index.html">BeforeTick</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1401048674%2FClasslikes%2F-2132410162" anchor-label="Remove" id="-1401048674%2FClasslikes%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-remove/index.html">Remove</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1401048674%2FClasslikes%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace">public interface <a href="-remove/index.html">Remove</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Functions</h2>
+              <div class="table" data-togglable="Functions"><a data-name="-520925007%2FFunctions%2F-2132410162" anchor-label="afterRender" id="-520925007%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="after-render.html">afterRender</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-520925007%2FFunctions%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace block">static <span data-unresolved-link="net.fabricmc.fabric.api.event/Event///PointingToDeclaration/">Event</span>&lt;<a href="-after-render/index.html">ScreenEvents.AfterRender</a>&gt; <a href="after-render.html">afterRender</a>(<span data-unresolved-link="net.minecraft.client.gui.screen/Screen///PointingToDeclaration/">Screen</span> screen)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="-520925007%2FFunctions%2F-2132410162" anchor-label="afterRender" id="-520925007%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a><div class="brief "><a data-name="-520925007%2FFunctions%2F-2132410162" anchor-label="afterRender" id="-520925007%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>An event that is called after a screen is rendered.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1328140490%2FFunctions%2F-2132410162" anchor-label="afterTick" id="1328140490%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="after-tick.html">afterTick</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1328140490%2FFunctions%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace block">static <span data-unresolved-link="net.fabricmc.fabric.api.event/Event///PointingToDeclaration/">Event</span>&lt;<a href="-after-tick/index.html">ScreenEvents.AfterTick</a>&gt; <a href="after-tick.html">afterTick</a>(<span data-unresolved-link="net.minecraft.client.gui.screen/Screen///PointingToDeclaration/">Screen</span> screen)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="1328140490%2FFunctions%2F-2132410162" anchor-label="afterTick" id="1328140490%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a><div class="brief "><a data-name="1328140490%2FFunctions%2F-2132410162" anchor-label="afterTick" id="1328140490%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>An event that is called after a screen is ticked.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1763010098%2FFunctions%2F-2132410162" anchor-label="beforeRender" id="-1763010098%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="before-render.html">beforeRender</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1763010098%2FFunctions%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace block">static <span data-unresolved-link="net.fabricmc.fabric.api.event/Event///PointingToDeclaration/">Event</span>&lt;<a href="-before-render/index.html">ScreenEvents.BeforeRender</a>&gt; <a href="before-render.html">beforeRender</a>(<span data-unresolved-link="net.minecraft.client.gui.screen/Screen///PointingToDeclaration/">Screen</span> screen)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="-1763010098%2FFunctions%2F-2132410162" anchor-label="beforeRender" id="-1763010098%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a><div class="brief "><a data-name="-1763010098%2FFunctions%2F-2132410162" anchor-label="beforeRender" id="-1763010098%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>An event that is called before a screen is rendered.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1582645977%2FFunctions%2F-2132410162" anchor-label="beforeTick" id="-1582645977%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="before-tick.html">beforeTick</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1582645977%2FFunctions%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace block">static <span data-unresolved-link="net.fabricmc.fabric.api.event/Event///PointingToDeclaration/">Event</span>&lt;<a href="-before-tick/index.html">ScreenEvents.BeforeTick</a>&gt; <a href="before-tick.html">beforeTick</a>(<span data-unresolved-link="net.minecraft.client.gui.screen/Screen///PointingToDeclaration/">Screen</span> screen)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="-1582645977%2FFunctions%2F-2132410162" anchor-label="beforeTick" id="-1582645977%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a><div class="brief "><a data-name="-1582645977%2FFunctions%2F-2132410162" anchor-label="beforeTick" id="-1582645977%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>An event that is called before a screen is ticked.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1476718943%2FFunctions%2F-2132410162" anchor-label="remove" id="1476718943%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="remove.html">remove</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1476718943%2FFunctions%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><div class="symbol monospace block">static <span data-unresolved-link="net.fabricmc.fabric.api.event/Event///PointingToDeclaration/">Event</span>&lt;<a href="-remove/index.html">ScreenEvents.Remove</a>&gt; <a href="remove.html">remove</a>(<span data-unresolved-link="net.minecraft.client.gui.screen/Screen///PointingToDeclaration/">Screen</span> screen)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="1476718943%2FFunctions%2F-2132410162" anchor-label="remove" id="1476718943%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a><div class="brief "><a data-name="1476718943%2FFunctions%2F-2132410162" anchor-label="remove" id="1476718943%2FFunctions%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>An event that is called after <span data-unresolved-link="net.minecraft.client.gui.screen/Screen/removed/#/PointingToDeclaration/">removed</span> is called.This event signifies that the screen is now closed.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Properties</h2>
+              <div class="table" data-togglable="Properties"><a data-name="543730906%2FProperties%2F-2132410162" anchor-label="AFTER_INIT" id="543730906%2FProperties%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#543730906%2FProperties%2F-2132410162">AFTER_INIT</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="543730906%2FProperties%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><a data-name="543730906%2FProperties%2F-2132410162" anchor-label="AFTER_INIT" id="543730906%2FProperties%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a><div class="symbol monospace block">public final static <span data-unresolved-link="net.fabricmc.fabric.api.event/Event///PointingToDeclaration/">Event</span>&lt;<a href="-after-init/index.html">ScreenEvents.AfterInit</a>&gt; <a href="index.html#543730906%2FProperties%2F-2132410162">AFTER_INIT</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="543730906%2FProperties%2F-2132410162" anchor-label="AFTER_INIT" id="543730906%2FProperties%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>An event that is called after <span data-unresolved-link="net.minecraft.client.gui.screen/Screen/init/#net.minecraft.client.MinecraftClient#int#int/PointingToDeclaration/">a screen is initialized</span> to it's default state.</div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="252344957%2FProperties%2F-2132410162" anchor-label="BEFORE_INIT" id="252344957%2FProperties%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="index.html#252344957%2FProperties%2F-2132410162">BEFORE_INIT</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="252344957%2FProperties%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title">
+                        <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-screen-api-v1:dokkaHtml/main"><a data-name="252344957%2FProperties%2F-2132410162" anchor-label="BEFORE_INIT" id="252344957%2FProperties%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a><div class="symbol monospace block">public final static <span data-unresolved-link="net.fabricmc.fabric.api.event/Event///PointingToDeclaration/">Event</span>&lt;<a href="-before-init/index.html">ScreenEvents.BeforeInit</a>&gt; <a href="index.html#252344957%2FProperties%2F-2132410162">BEFORE_INIT</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><a data-name="252344957%2FProperties%2F-2132410162" anchor-label="BEFORE_INIT" id="252344957%2FProperties%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>An event that is called before <span data-unresolved-link="net.minecraft.client.gui.screen/Screen/init/#net.minecraft.client.MinecraftClient#int#int/PointingToDeclaration/">a screen is initialized</span> to it's default state.</div></div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Sources</h2>
+              <div class="table" data-togglable="Sources"><a data-name="923922834%2FSource%2F-2132410162" anchor-label="https://github.com/FabricMC/fabric/blob/1.17/fabric-screen-api-v1/src/main/java/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents.java#L31" id="923922834%2FSource%2F-2132410162" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-screen-api-v1:dokkaHtml/main" data-filterable-set=":fabric-screen-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="https://github.com/FabricMC/fabric/blob/1.17/fabric-screen-api-v1/src/main/java/net/fabricmc/fabric/api/client/screen/v1/ScreenEvents.java#L31">jvm source</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="923922834%2FSource%2F-2132410162"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2021 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  </body>
+</html>
+

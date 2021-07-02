@@ -1,1 +1,1 @@
-sourceset_dependencies = '{":fabric-keybindings-v0:dokkaHtml/main": []}'
+sourceset_dependencies='{":fabric-keybindings-v0:dokkaHtml/main":[]}'

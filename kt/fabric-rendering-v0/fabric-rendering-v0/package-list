@@ -1,6 +1,0 @@
-$dokka.format:html-v1
-$dokka.linkExtension:html
-
-net.fabricmc.fabric.api.client.render
-net.fabricmc.fabric.impl.client.rendering
-

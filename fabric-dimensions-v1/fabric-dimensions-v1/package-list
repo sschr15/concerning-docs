@@ -1,6 +1,16 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.dimension.v1////PointingToDeclaration/fabric-dimensions-v1/net.fabricmc.fabric.api.dimension.v1/index.html
+$dokka.location:net.fabricmc.fabric.api.dimension.v1/FabricDimensions///PointingToDeclaration/fabric-dimensions-v1/net.fabricmc.fabric.api.dimension.v1/-fabric-dimensions/index.html
+$dokka.location:net.fabricmc.fabric.api.dimension.v1/FabricDimensions/teleport/#E#net.minecraft.server.world.ServerWorld#net.minecraft.world.TeleportTarget/PointingToDeclaration/fabric-dimensions-v1/net.fabricmc.fabric.api.dimension.v1/-fabric-dimensions/teleport.html
+$dokka.location:net.fabricmc.fabric.impl.dimension////PointingToDeclaration/fabric-dimensions-v1/net.fabricmc.fabric.impl.dimension/index.html
+$dokka.location:net.fabricmc.fabric.impl.dimension/FabricDimensionInternals///PointingToDeclaration/fabric-dimensions-v1/net.fabricmc.fabric.impl.dimension/-fabric-dimension-internals/index.html
+$dokka.location:net.fabricmc.fabric.impl.dimension/FabricDimensionInternals/changeDimension/#E#net.minecraft.server.world.ServerWorld#net.minecraft.world.TeleportTarget/PointingToDeclaration/fabric-dimensions-v1/net.fabricmc.fabric.impl.dimension/-fabric-dimension-internals/change-dimension.html
+$dokka.location:net.fabricmc.fabric.impl.dimension/FabricDimensionInternals/getCustomTarget/#/PointingToDeclaration/fabric-dimensions-v1/net.fabricmc.fabric.impl.dimension/-fabric-dimension-internals/get-custom-target.html
+$dokka.location:net.fabricmc.fabric.mixin.dimension////PointingToDeclaration/fabric-dimensions-v1/net.fabricmc.fabric.mixin.dimension/index.html
+$dokka.location:net.fabricmc.fabric.mixin.dimension/EntityMixin///PointingToDeclaration/fabric-dimensions-v1/net.fabricmc.fabric.mixin.dimension/-entity-mixin/index.html
+$dokka.location:net.fabricmc.fabric.mixin.dimension/EntityMixin/getTeleportTarget/#net.minecraft.server.world.ServerWorld#org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable<net.minecraft.world.TeleportTarget>/PointingToDeclaration/fabric-dimensions-v1/net.fabricmc.fabric.mixin.dimension/-entity-mixin/get-teleport-target.html
+$dokka.location:net.fabricmc.fabric.mixin.dimension/ServerBugfixMixin///PointingToDeclaration/fabric-dimensions-v1/net.fabricmc.fabric.mixin.dimension/-server-bugfix-mixin/index.html
 net.fabricmc.fabric.api.dimension.v1
 net.fabricmc.fabric.impl.dimension
 net.fabricmc.fabric.mixin.dimension

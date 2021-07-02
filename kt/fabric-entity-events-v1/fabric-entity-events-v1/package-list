@@ -1,6 +1,0 @@
-$dokka.format:html-v1
-$dokka.linkExtension:html
-
-net.fabricmc.fabric.api.entity.event.v1
-net.fabricmc.fabric.mixin.entity.event
-

@@ -2,32 +2,20 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>RegistryIdRemapCallback</title>
-    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
-    <script>var pathToRoot = "../../../";</script>
-    <script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
-    <link href="../../../styles/style.css" rel="Stylesheet">
-    <link href="../../../styles/logo-styles.css" rel="Stylesheet">
-    <link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
-    <link href="../../../styles/main.css" rel="Stylesheet">
-    <script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
-    <script type="text/javascript" src="../../../scripts/main.js" async="async"></script>
-  </head>
+<link href="../../../../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script><script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script>  </head>
   <body>
     <div id="container">
-      <div id="leftColumn">
-        <a href="/"><div id="logo"></div></a>
+      <div id="leftColumn"><a href="../../../index.html">
+          <div id="logo"></div>
+        </a>
         <div id="paneSearch"></div>
         <div id="sideMenu"></div>
       </div>
       <div id="main">
         <div id="leftToggler"><span class="icon-toggler"></span></div>
-        <script type="text/javascript" src="../../../scripts/pages.js"></script>
-        <script type="text/javascript" src="../../../scripts/main.js"></script>
-        <div class="main-content" id="content" pageIds="net.fabricmc.fabric.api.event.registry/RegistryIdRemapCallback///PointingToDeclaration//-392387735">
+<script type="text/javascript" src="../../../scripts/main.js"></script>        <div class="main-content" id="content" pageIds="fabric-registry-sync-v0::net.fabricmc.fabric.api.event.registry/RegistryIdRemapCallback///PointingToDeclaration//-1659759015">
           <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"><a href="../../index.html">fabric-registry-sync-v0</a>/<a href="../index.html">net.fabricmc.fabric.api.event.registry</a>/<a href="index.html">RegistryIdRemapCallback</a></div>
+            <div class="breadcrumbs"><a href="../../../index.html">fabric-registry-sync-v0</a>/<a href="../index.html">net.fabricmc.fabric.api.event.registry</a>/<a href="index.html">RegistryIdRemapCallback</a></div>
             <div class="pull-right d-flex">
               <div id="searchBar"></div>
             </div>
@@ -37,24 +25,24 @@
             <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-registry-sync-v0:dokkaHtml/main"><div class="symbol monospace">public interface <a href="index.html">RegistryIdRemapCallback</a>&lt;T&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">The remapping process functions as follows: </p><ul><li>RegistryEntryRemovedCallbacks are called to remove any objects culled in the process, with the old numeric ID. </li><li>RegistryIdRemapCallback is emitted to allow remapping the IDs of objects still present. </li><li>RegistryEntryAddedCallbacks are called to add any objects added in the process, with the new numeric ID.</li></ul><p class="paragraph">RegistryIdRemapCallback is called on every remapping operation, if you want to do your own processing in one swoop (say, rebuild the ID map from scratch). </p><p class="paragraph">Generally speaking, a remap can only cause object *removals*; object *additions* are necessary to reverse remaps.</p></div></div>
           </div>
           <div class="tabbedcontent">
-            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Parameters">Parameters</button><button class="section-tab" data-togglable="Inheritors">Inheritors</button></div>
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Parameters">Parameters</button><button class="section-tab" data-togglable="Sources">Sources</button><button class="section-tab" data-togglable="Inheritors">Inheritors</button></div>
             <div class="tabs-section-body">
               <h2 class="">Parameters</h2>
               <div data-togglable="Parameters">
                 <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-registry-sync-v0:dokkaHtml/main"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":fabric-registry-sync-v0:dokkaHtml/main" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">&lt;T&gt;</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">The registry type.</p></div></div></div></div></div></div></div></div></div>
               </div>
               <h2 class="">Types</h2>
-              <div class="table" data-togglable="Types"><a data-name="%5Bnet.fabricmc.fabric.api.event.registry%2FRegistryIdRemapCallback.RemapState%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-392387735" anchor-label="RemapState" id="%5Bnet.fabricmc.fabric.api.event.registry%2FRegistryIdRemapCallback.RemapState%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-392387735" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
+              <div class="table" data-togglable="Types"><a data-name="-1315135986%2FClasslikes%2F-1659759015" anchor-label="RemapState" id="-1315135986%2FClasslikes%2F-1659759015" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
                 <div class="table-row" data-filterable-current=":fabric-registry-sync-v0:dokkaHtml/main" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="-remap-state/index.html">RemapState</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.event.registry%2FRegistryIdRemapCallback.RemapState%2F%2F%2FPointingToDeclaration%2F%5D%2FClasslikes%2F-392387735"></span>
+                    <div class=""><span class="inline-flex"><a href="-remap-state/index.html">RemapState</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1315135986%2FClasslikes%2F-1659759015"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
                       <div class="title"><div class="divergent-group" data-filterable-current=":fabric-registry-sync-v0:dokkaHtml/main" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
 
   <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-registry-sync-v0:dokkaHtml/main"><div class="symbol monospace">interface <a href="-remap-state/index.html">RemapState</a>&lt;T&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-registry-sync-v0:dokkaHtml/main"><div class="symbol monospace">public interface <a href="-remap-state/index.html">RemapState</a>&lt;T&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
   </div>
 </div>
 </div>
@@ -63,34 +51,34 @@
                 </div>
               </div>
               <h2 class="">Functions</h2>
-              <div class="table" data-togglable="Functions"><a data-name="%5Bnet.fabricmc.fabric.api.event.registry%2FRegistryIdRemapCallback%2Fevent%2F%23net.minecraft.util.registry.Registry%3CT%3E%2FPointingToDeclaration%2F%5D%2FFunctions%2F-392387735" anchor-label="event" id="%5Bnet.fabricmc.fabric.api.event.registry%2FRegistryIdRemapCallback%2Fevent%2F%23net.minecraft.util.registry.Registry%3CT%3E%2FPointingToDeclaration%2F%5D%2FFunctions%2F-392387735" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
+              <div class="table" data-togglable="Functions"><a data-name="-1692236847%2FFunctions%2F-1659759015" anchor-label="event" id="-1692236847%2FFunctions%2F-1659759015" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
                 <div class="table-row" data-filterable-current=":fabric-registry-sync-v0:dokkaHtml/main" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="event.html">event</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.event.registry%2FRegistryIdRemapCallback%2Fevent%2F%23net.minecraft.util.registry.Registry%3CT%3E%2FPointingToDeclaration%2F%5D%2FFunctions%2F-392387735"></span>
+                    <div class=""><span class="inline-flex"><a href="event.html">event</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1692236847%2FFunctions%2F-1659759015"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
                       <div class="title"><div class="divergent-group" data-filterable-current=":fabric-registry-sync-v0:dokkaHtml/main" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
 
   <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-registry-sync-v0:dokkaHtml/main"><div class="symbol monospace block">static <span data-unresolved-link="net.fabricmc.fabric.api.event/Event///PointingToDeclaration/">Event</span>&lt;<a href="index.html">RegistryIdRemapCallback</a>&lt;<a href="../../net.fabricmc.fabric.impl.registry.sync.trackers/-state-id-tracker/index.html">T</a>&gt;&gt; <a href="event.html">event</a>&lt;T&gt;(<span data-unresolved-link="net.minecraft.util.registry/Registry///PointingToDeclaration/">Registry</span>&lt;<a href="../../net.fabricmc.fabric.impl.registry.sync.trackers/-state-id-tracker/index.html">T</a>&gt; <a href="event.html">registry</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-registry-sync-v0:dokkaHtml/main"><div class="symbol monospace block">static <span data-unresolved-link="net.fabricmc.fabric.api.event/Event///PointingToDeclaration/">Event</span>&lt;<a href="index.html">RegistryIdRemapCallback</a>&lt;<a href="../../net.fabricmc.fabric.impl.registry.sync.trackers/-state-id-tracker/index.html">T</a>&gt;&gt; <a href="event.html">event</a>&lt;T&gt;(<span data-unresolved-link="net.minecraft.util.registry/Registry///PointingToDeclaration/">Registry</span>&lt;<a href="../../net.fabricmc.fabric.impl.registry.sync.trackers/-state-id-tracker/index.html">T</a>&gt; registry)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
   </div>
 </div>
 </div>
                     </div>
                   </div>
                 </div>
-<a data-name="%5Bnet.fabricmc.fabric.api.event.registry%2FRegistryIdRemapCallback%2FonRemap%2F%23net.fabricmc.fabric.api.event.registry.RegistryIdRemapCallback.RemapState%3CT%3E%2FPointingToDeclaration%2F%5D%2FFunctions%2F-392387735" anchor-label="onRemap" id="%5Bnet.fabricmc.fabric.api.event.registry%2FRegistryIdRemapCallback%2FonRemap%2F%23net.fabricmc.fabric.api.event.registry.RegistryIdRemapCallback.RemapState%3CT%3E%2FPointingToDeclaration%2F%5D%2FFunctions%2F-392387735" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
+<a data-name="600625803%2FFunctions%2F-1659759015" anchor-label="onRemap" id="600625803%2FFunctions%2F-1659759015" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
                 <div class="table-row" data-filterable-current=":fabric-registry-sync-v0:dokkaHtml/main" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="on-remap.html">onRemap</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.api.event.registry%2FRegistryIdRemapCallback%2FonRemap%2F%23net.fabricmc.fabric.api.event.registry.RegistryIdRemapCallback.RemapState%3CT%3E%2FPointingToDeclaration%2F%5D%2FFunctions%2F-392387735"></span>
+                    <div class=""><span class="inline-flex"><a href="on-remap.html">onRemap</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="600625803%2FFunctions%2F-1659759015"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div>
                       <div class="title"><div class="divergent-group" data-filterable-current=":fabric-registry-sync-v0:dokkaHtml/main" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
 
   <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-registry-sync-v0:dokkaHtml/main"><div class="symbol monospace block">abstract void <a href="on-remap.html">onRemap</a>(<a href="-remap-state/index.html">RegistryIdRemapCallback.RemapState</a>&lt;<a href="../../net.fabricmc.fabric.impl.registry.sync.trackers/-state-id-tracker/index.html">T</a>&gt; <a href="on-remap.html">state</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-registry-sync-v0:dokkaHtml/main"><div class="symbol monospace block">abstract void <a href="on-remap.html">onRemap</a>(<a href="-remap-state/index.html">RegistryIdRemapCallback.RemapState</a>&lt;<a href="../../net.fabricmc.fabric.impl.registry.sync.trackers/-state-id-tracker/index.html">T</a>&gt; state)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
   </div>
 </div>
 </div>
@@ -99,28 +87,39 @@
                 </div>
               </div>
               <h2 class="">Inheritors</h2>
-              <div class="table" data-togglable="Inheritors"><a data-name="%5Bnet.fabricmc.fabric.impl.registry.sync.trackers%2FIdListTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FInheritors%2F-392387735" anchor-label="IdListTracker" id="%5Bnet.fabricmc.fabric.impl.registry.sync.trackers%2FIdListTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FInheritors%2F-392387735" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
+              <div class="table" data-togglable="Inheritors"><a data-name="353266685%2FInheritors%2F-1659759015" anchor-label="IdListTracker" id="353266685%2FInheritors%2F-1659759015" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
                 <div class="table-row" data-filterable-current=":fabric-registry-sync-v0:dokkaHtml/main" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../net.fabricmc.fabric.impl.registry.sync.trackers/-id-list-tracker/index.html">IdListTracker</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.impl.registry.sync.trackers%2FIdListTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FInheritors%2F-392387735"></span>
+                    <div class=""><span class="inline-flex"><a href="../../net.fabricmc.fabric.impl.registry.sync.trackers/-id-list-tracker/index.html">IdListTracker</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="353266685%2FInheritors%2F-1659759015"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div></div>
                   </div>
                 </div>
-<a data-name="%5Bnet.fabricmc.fabric.impl.registry.sync.trackers%2FInt2ObjectMapTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FInheritors%2F-392387735" anchor-label="Int2ObjectMapTracker" id="%5Bnet.fabricmc.fabric.impl.registry.sync.trackers%2FInt2ObjectMapTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FInheritors%2F-392387735" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
+<a data-name="-113486616%2FInheritors%2F-1659759015" anchor-label="Int2ObjectMapTracker" id="-113486616%2FInheritors%2F-1659759015" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
                 <div class="table-row" data-filterable-current=":fabric-registry-sync-v0:dokkaHtml/main" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../net.fabricmc.fabric.impl.registry.sync.trackers/-int2-object-map-tracker/index.html">Int2ObjectMapTracker</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.impl.registry.sync.trackers%2FInt2ObjectMapTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FInheritors%2F-392387735"></span>
+                    <div class=""><span class="inline-flex"><a href="../../net.fabricmc.fabric.impl.registry.sync.trackers/-int2-object-map-tracker/index.html">Int2ObjectMapTracker</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-113486616%2FInheritors%2F-1659759015"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div></div>
                   </div>
                 </div>
-<a data-name="%5Bnet.fabricmc.fabric.impl.registry.sync.trackers%2FStateIdTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FInheritors%2F-392387735" anchor-label="StateIdTracker" id="%5Bnet.fabricmc.fabric.impl.registry.sync.trackers%2FStateIdTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FInheritors%2F-392387735" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
+<a data-name="-406311046%2FInheritors%2F-1659759015" anchor-label="StateIdTracker" id="-406311046%2FInheritors%2F-1659759015" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
                 <div class="table-row" data-filterable-current=":fabric-registry-sync-v0:dokkaHtml/main" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main">
                   <div class="main-subrow keyValue ">
-                    <div class=""><span class="inline-flex"><a href="../../net.fabricmc.fabric.impl.registry.sync.trackers/-state-id-tracker/index.html">StateIdTracker</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="%5Bnet.fabricmc.fabric.impl.registry.sync.trackers%2FStateIdTracker%2F%2F%2FPointingToDeclaration%2F%5D%2FInheritors%2F-392387735"></span>
+                    <div class=""><span class="inline-flex"><a href="../../net.fabricmc.fabric.impl.registry.sync.trackers/-state-id-tracker/index.html">StateIdTracker</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-406311046%2FInheritors%2F-1659759015"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Sources</h2>
+              <div class="table" data-togglable="Sources"><a data-name="828720734%2FSource%2F-1659759015" anchor-label="https://github.com/FabricMC/fabric/blob/1.17/fabric-registry-sync-v0/src/main/java/net/fabricmc/fabric/api/event/registry/RegistryIdRemapCallback.java#L27" id="828720734%2FSource%2F-1659759015" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-registry-sync-v0:dokkaHtml/main" data-filterable-set=":fabric-registry-sync-v0:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="https://github.com/FabricMC/fabric/blob/1.17/fabric-registry-sync-v0/src/main/java/net/fabricmc/fabric/api/event/registry/RegistryIdRemapCallback.java#L27">jvm source</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="828720734%2FSource%2F-1659759015"></span>
                           <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                         </span></span></div>
                     <div></div>
@@ -130,7 +129,7 @@
             </div>
           </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2020 Copyright</span><span class="pull-right"><span>Sponsored and developed by dokka</span><a href="https://github.com/Kotlin/dokka"><span class="padded-icon"></span></a></span></div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2021 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
       </div>
     </div>
   </body>

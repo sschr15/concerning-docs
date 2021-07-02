@@ -1,6 +1,29 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.client.command.v1////PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.client.command.v1/index.html
+$dokka.location:net.fabricmc.fabric.api.client.command.v1/ClientCommandManager///PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.client.command.v1/-client-command-manager/index.html
+$dokka.location:net.fabricmc.fabric.api.client.command.v1/ClientCommandManager/argument/#java.lang.String#com.mojang.brigadier.arguments.ArgumentType<T>/PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.client.command.v1/-client-command-manager/argument.html
+$dokka.location:net.fabricmc.fabric.api.client.command.v1/ClientCommandManager/literal/#java.lang.String/PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.client.command.v1/-client-command-manager/literal.html
+$dokka.location:net.fabricmc.fabric.api.client.command.v1/FabricClientCommandSource///PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.client.command.v1/-fabric-client-command-source/index.html
+$dokka.location:net.fabricmc.fabric.api.client.command.v1/FabricClientCommandSource/getClient/#/PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.client.command.v1/-fabric-client-command-source/get-client.html
+$dokka.location:net.fabricmc.fabric.api.client.command.v1/FabricClientCommandSource/getPlayer/#/PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.client.command.v1/-fabric-client-command-source/get-player.html
+$dokka.location:net.fabricmc.fabric.api.client.command.v1/FabricClientCommandSource/getWorld/#/PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.client.command.v1/-fabric-client-command-source/get-world.html
+$dokka.location:net.fabricmc.fabric.api.client.command.v1/FabricClientCommandSource/sendError/#net.minecraft.text.Text/PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.client.command.v1/-fabric-client-command-source/send-error.html
+$dokka.location:net.fabricmc.fabric.api.client.command.v1/FabricClientCommandSource/sendFeedback/#net.minecraft.text.Text/PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.client.command.v1/-fabric-client-command-source/send-feedback.html
+$dokka.location:net.fabricmc.fabric.api.command.v1////PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.command.v1/index.html
+$dokka.location:net.fabricmc.fabric.api.command.v1/CommandRegistrationCallback///PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.command.v1/-command-registration-callback/index.html
+$dokka.location:net.fabricmc.fabric.api.command.v1/CommandRegistrationCallback/register/#com.mojang.brigadier.CommandDispatcher<net.minecraft.server.command.ServerCommandSource>#boolean/PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.api.command.v1/-command-registration-callback/register.html
+$dokka.location:net.fabricmc.fabric.impl.command.client////PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.impl.command.client/index.html
+$dokka.location:net.fabricmc.fabric.impl.command.client/ClientCommandInternals///PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.impl.command.client/-client-command-internals/index.html
+$dokka.location:net.fabricmc.fabric.impl.command.client/ClientCommandInternals/addCommands/#com.mojang.brigadier.CommandDispatcher<net.fabricmc.fabric.api.client.command.v1.FabricClientCommandSource>#net.fabricmc.fabric.api.client.command.v1.FabricClientCommandSource/PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.impl.command.client/-client-command-internals/add-commands.html
+$dokka.location:net.fabricmc.fabric.impl.command.client/ClientCommandInternals/executeCommand/#java.lang.String/PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.impl.command.client/-client-command-internals/execute-command.html
+$dokka.location:net.fabricmc.fabric.impl.command.client/ClientCommandInternals/finalizeInit/#/PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.impl.command.client/-client-command-internals/finalize-init.html
+$dokka.location:net.fabricmc.fabric.mixin.command////PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.mixin.command/index.html
+$dokka.location:net.fabricmc.fabric.mixin.command/CommandManagerMixin///PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.mixin.command/-command-manager-mixin/index.html
+$dokka.location:net.fabricmc.fabric.mixin.command/HelpCommandAccessor///PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.mixin.command/-help-command-accessor/index.html
+$dokka.location:net.fabricmc.fabric.mixin.command/HelpCommandAccessor/getFailedException/#/PointingToDeclaration/fabric-command-api-v1/net.fabricmc.fabric.mixin.command/-help-command-accessor/get-failed-exception.html
+net.fabricmc.fabric.api.client.command.v1
 net.fabricmc.fabric.api.command.v1
+net.fabricmc.fabric.impl.command.client
 net.fabricmc.fabric.mixin.command
 

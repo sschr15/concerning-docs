@@ -1,8 +1,0 @@
-$dokka.format:html-v1
-$dokka.linkExtension:html
-
-net.fabricmc.fabric.api.event.network
-net.fabricmc.fabric.api.network
-net.fabricmc.fabric.api.server
-net.fabricmc.fabric.impl.networking
-

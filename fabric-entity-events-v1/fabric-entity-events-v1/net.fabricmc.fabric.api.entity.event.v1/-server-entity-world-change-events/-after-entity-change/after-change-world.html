@@ -2,32 +2,20 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>afterChangeWorld</title>
-    <link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">
-    <script>var pathToRoot = "../../../../";</script>
-    <script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script>
-    <link href="../../../../styles/style.css" rel="Stylesheet">
-    <link href="../../../../styles/logo-styles.css" rel="Stylesheet">
-    <link href="../../../../styles/jetbrains-mono.css" rel="Stylesheet">
-    <link href="../../../../styles/main.css" rel="Stylesheet">
-    <script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script>
-    <script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script>
-    <script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script>
-    <script type="text/javascript" src="../../../../scripts/main.js" async="async"></script>
-  </head>
+<link href="../../../../../../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../../";</script><script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../../styles/style.css" rel="Stylesheet"><link href="../../../../styles/logo-styles.css" rel="Stylesheet"><link href="../../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../../scripts/main.js" async="async"></script>  </head>
   <body>
     <div id="container">
-      <div id="leftColumn">
-        <a href="/"><div id="logo"></div></a>
+      <div id="leftColumn"><a href="../../../../index.html">
+          <div id="logo"></div>
+        </a>
         <div id="paneSearch"></div>
         <div id="sideMenu"></div>
       </div>
       <div id="main">
         <div id="leftToggler"><span class="icon-toggler"></span></div>
-        <script type="text/javascript" src="../../../../scripts/pages.js"></script>
-        <script type="text/javascript" src="../../../../scripts/main.js"></script>
-        <div class="main-content" id="content" pageIds="net.fabricmc.fabric.api.entity.event.v1/ServerEntityWorldChangeEvents.AfterEntityChange/afterChangeWorld/#net.minecraft.entity.Entity#net.minecraft.entity.Entity#net.minecraft.server.world.ServerWorld#net.minecraft.server.world.ServerWorld/PointingToDeclaration//-1820421903">
+<script type="text/javascript" src="../../../../scripts/main.js"></script>        <div class="main-content" id="content" pageIds="fabric-entity-events-v1::net.fabricmc.fabric.api.entity.event.v1/ServerEntityWorldChangeEvents.AfterEntityChange/afterChangeWorld/#net.minecraft.entity.Entity#net.minecraft.entity.Entity#net.minecraft.server.world.ServerWorld#net.minecraft.server.world.ServerWorld/PointingToDeclaration//-1027890174">
           <div class="navigation-wrapper" id="navigation-wrapper">
-            <div class="breadcrumbs"><a href="../../../index.html">fabric-entity-events-v1</a>/<a href="../../index.html">net.fabricmc.fabric.api.entity.event.v1</a>/<a href="../index.html">ServerEntityWorldChangeEvents</a>/<a href="index.html">AfterEntityChange</a>/<a href="after-change-world.html">afterChangeWorld</a></div>
+            <div class="breadcrumbs"><a href="../../../../index.html">fabric-entity-events-v1</a>/<a href="../../index.html">net.fabricmc.fabric.api.entity.event.v1</a>/<a href="../index.html">ServerEntityWorldChangeEvents</a>/<a href="index.html">AfterEntityChange</a>/<a href="after-change-world.html">afterChangeWorld</a></div>
             <div class="pull-right d-flex">
               <div id="searchBar"></div>
             </div>
@@ -38,11 +26,22 @@
 <div class="divergent-group" data-filterable-current=":fabric-entity-events-v1:dokkaHtml/main" data-filterable-set=":fabric-entity-events-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
 
   <div>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-entity-events-v1:dokkaHtml/main"><div class="symbol monospace block">abstract void <a href="after-change-world.html">afterChangeWorld</a>(<span data-unresolved-link="net.minecraft.entity/Entity///PointingToDeclaration/">Entity</span> <a href="after-change-world.html">originalEntity</a>, <span data-unresolved-link="net.minecraft.entity/Entity///PointingToDeclaration/">Entity</span> <a href="after-change-world.html">newEntity</a>, <span data-unresolved-link="net.minecraft.server.world/ServerWorld///PointingToDeclaration/">ServerWorld</span> <a href="after-change-world.html">origin</a>, <span data-unresolved-link="net.minecraft.server.world/ServerWorld///PointingToDeclaration/">ServerWorld</span> <a href="after-change-world.html">destination</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-entity-events-v1:dokkaHtml/main"><div class="symbol monospace block">abstract void <a href="after-change-world.html">afterChangeWorld</a>(<span data-unresolved-link="net.minecraft.entity/Entity///PointingToDeclaration/">Entity</span> originalEntity, <span data-unresolved-link="net.minecraft.entity/Entity///PointingToDeclaration/">Entity</span> newEntity, <span data-unresolved-link="net.minecraft.server.world/ServerWorld///PointingToDeclaration/">ServerWorld</span> origin, <span data-unresolved-link="net.minecraft.server.world/ServerWorld///PointingToDeclaration/">ServerWorld</span> destination)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
   </div>
 <p class="paragraph">Called after an entity has been recreated at the destination when being moved to a different world.</p><p class="paragraph">Note this event is not called if the entity is a <span data-unresolved-link="net.minecraft.server.network/ServerPlayerEntity///PointingToDeclaration/">ServerPlayerEntity</span>. <a href="../-after-player-change/index.html">AfterPlayerChange</a> should be used to track when a player has changed worlds.</p><h2 class="">Parameters</h2><div data-togglable="Parameters"><div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-entity-events-v1:dokkaHtml/main"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":fabric-entity-events-v1:dokkaHtml/main" data-filterable-set=":fabric-entity-events-v1:dokkaHtml/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">originalEntity</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">the original entity</p></div></div></div></div></div><div class="table-row" data-filterable-current=":fabric-entity-events-v1:dokkaHtml/main" data-filterable-set=":fabric-entity-events-v1:dokkaHtml/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">newEntity</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">the new entity at the destination</p></div></div></div></div></div><div class="table-row" data-filterable-current=":fabric-entity-events-v1:dokkaHtml/main" data-filterable-set=":fabric-entity-events-v1:dokkaHtml/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">origin</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">the world the original entity is in</p></div></div></div></div></div><div class="table-row" data-filterable-current=":fabric-entity-events-v1:dokkaHtml/main" data-filterable-set=":fabric-entity-events-v1:dokkaHtml/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">destination</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">the destination world the new entity is in</p></div></div></div></div></div></div></div></div></div></div></div>
+          <h2 class="">Sources</h2>
+          <div class="table" data-togglable="Sources"><a data-name="-1061788065%2FSource%2F-1027890174" anchor-label="https://github.com/FabricMC/fabric/blob/1.17/fabric-entity-events-v1/src/main/java/net/fabricmc/fabric/api/entity/event/v1/ServerEntityWorldChangeEvents.java#L64" id="-1061788065%2FSource%2F-1027890174" data-filterable-set=":fabric-entity-events-v1:dokkaHtml/main"></a>
+            <div class="table-row" data-filterable-current=":fabric-entity-events-v1:dokkaHtml/main" data-filterable-set=":fabric-entity-events-v1:dokkaHtml/main">
+              <div class="main-subrow keyValue ">
+                <div class=""><span class="inline-flex"><a href="https://github.com/FabricMC/fabric/blob/1.17/fabric-entity-events-v1/src/main/java/net/fabricmc/fabric/api/entity/event/v1/ServerEntityWorldChangeEvents.java#L64">jvm source</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1061788065%2FSource%2F-1027890174"></span>
+                      <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                    </span></span></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2020 Copyright</span><span class="pull-right"><span>Sponsored and developed by dokka</span><a href="https://github.com/Kotlin/dokka"><span class="padded-icon"></span></a></span></div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2021 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
       </div>
     </div>
   </body>

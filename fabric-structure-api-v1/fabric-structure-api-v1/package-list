@@ -1,6 +1,26 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.structure.v1////PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.api.structure.v1/index.html
+$dokka.location:net.fabricmc.fabric.api.structure.v1/FabricStructureBuilder///PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.api.structure.v1/-fabric-structure-builder/index.html
+$dokka.location:net.fabricmc.fabric.api.structure.v1/FabricStructureBuilder/adjustsSurface/#/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.api.structure.v1/-fabric-structure-builder/adjusts-surface.html
+$dokka.location:net.fabricmc.fabric.api.structure.v1/FabricStructureBuilder/create/#net.minecraft.util.Identifier#S/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.api.structure.v1/-fabric-structure-builder/create.html
+$dokka.location:net.fabricmc.fabric.api.structure.v1/FabricStructureBuilder/defaultConfig/#int#int#int/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.api.structure.v1/-fabric-structure-builder/default-config.html
+$dokka.location:net.fabricmc.fabric.api.structure.v1/FabricStructureBuilder/defaultConfig/#net.minecraft.world.gen.chunk.StructureConfig/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.api.structure.v1/-fabric-structure-builder/default-config.html
+$dokka.location:net.fabricmc.fabric.api.structure.v1/FabricStructureBuilder/register/#/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.api.structure.v1/-fabric-structure-builder/register.html
+$dokka.location:net.fabricmc.fabric.api.structure.v1/FabricStructureBuilder/step/#net.minecraft.world.gen.GenerationStep.Feature/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.api.structure.v1/-fabric-structure-builder/step.html
+$dokka.location:net.fabricmc.fabric.api.structure.v1/FabricStructureBuilder/superflatFeature/#FC/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.api.structure.v1/-fabric-structure-builder/superflat-feature.html
+$dokka.location:net.fabricmc.fabric.api.structure.v1/FabricStructureBuilder/superflatFeature/#net.minecraft.world.gen.feature.ConfiguredStructureFeature<FC,? extends net.minecraft.world.gen.feature.StructureFeature<FC>>/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.api.structure.v1/-fabric-structure-builder/superflat-feature.html
+$dokka.location:net.fabricmc.fabric.impl.structure////PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.impl.structure/index.html
+$dokka.location:net.fabricmc.fabric.impl.structure/FabricStructureImpl///PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.impl.structure/-fabric-structure-impl/index.html
+$dokka.location:net.fabricmc.fabric.impl.structure/FabricStructureImpl/onInitialize/#/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.impl.structure/-fabric-structure-impl/on-initialize.html
+$dokka.location:net.fabricmc.fabric.mixin.structure////PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.mixin.structure/index.html
+$dokka.location:net.fabricmc.fabric.mixin.structure/FlatChunkGeneratorConfigAccessor///PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.mixin.structure/-flat-chunk-generator-config-accessor/index.html
+$dokka.location:net.fabricmc.fabric.mixin.structure/FlatChunkGeneratorConfigAccessor/getStructureToFeatures/#/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.mixin.structure/-flat-chunk-generator-config-accessor/get-structure-to-features.html
+$dokka.location:net.fabricmc.fabric.mixin.structure/StructureFeatureAccessor///PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.mixin.structure/-structure-feature-accessor/index.html
+$dokka.location:net.fabricmc.fabric.mixin.structure/StructureFeatureAccessor/callRegister/#java.lang.String#F#net.minecraft.world.gen.GenerationStep.Feature/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.mixin.structure/-structure-feature-accessor/call-register.html
+$dokka.location:net.fabricmc.fabric.mixin.structure/StructureFeatureAccessor/setSurfaceAdjustingStructures/#java.util.List<net.minecraft.world.gen.feature.StructureFeature<?>>/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.mixin.structure/-structure-feature-accessor/set-surface-adjusting-structures.html
+$dokka.location:net.fabricmc.fabric.mixin.structure/StructuresConfigAccessor///PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.mixin.structure/-structures-config-accessor/index.html
+$dokka.location:net.fabricmc.fabric.mixin.structure/StructuresConfigAccessor/setStructures/#java.util.Map<net.minecraft.world.gen.feature.StructureFeature<?>,net.minecraft.world.gen.chunk.StructureConfig>/PointingToDeclaration/fabric-structure-api-v1/net.fabricmc.fabric.mixin.structure/-structures-config-accessor/set-structures.html
 net.fabricmc.fabric.api.structure.v1
 net.fabricmc.fabric.impl.structure
 net.fabricmc.fabric.mixin.structure

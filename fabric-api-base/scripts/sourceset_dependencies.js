@@ -1,1 +1,1 @@
-sourceset_dependencies = '{":fabric-api-base:dokkaHtml/main": []}'
+sourceset_dependencies='{":fabric-api-base:dokkaHtml/main":[]}'

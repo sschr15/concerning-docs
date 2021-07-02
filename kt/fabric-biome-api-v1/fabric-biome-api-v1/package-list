@@ -1,9 +1,0 @@
-$dokka.format:html-v1
-$dokka.linkExtension:html
-
-net.fabricmc.fabric.api.biome.v1
-net.fabricmc.fabric.impl.biome
-net.fabricmc.fabric.impl.biome.modification
-net.fabricmc.fabric.mixin.biome
-net.fabricmc.fabric.mixin.biome.modification
-

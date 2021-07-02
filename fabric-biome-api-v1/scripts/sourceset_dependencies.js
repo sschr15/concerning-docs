@@ -1,1 +1,1 @@
-sourceset_dependencies = '{":fabric-biome-api-v1:dokkaHtml/main": []}'
+sourceset_dependencies='{":fabric-biome-api-v1:dokkaHtml/main":[]}'

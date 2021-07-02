@@ -1,5 +1,13 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.client.keybinding////PointingToDeclaration/fabric-keybindings-v0/net.fabricmc.fabric.api.client.keybinding/index.html
+$dokka.location:net.fabricmc.fabric.api.client.keybinding/FabricKeyBinding.Builder///PointingToDeclaration/fabric-keybindings-v0/net.fabricmc.fabric.api.client.keybinding/-fabric-key-binding/-builder/index.html
+$dokka.location:net.fabricmc.fabric.api.client.keybinding/FabricKeyBinding.Builder/build/#/PointingToDeclaration/fabric-keybindings-v0/net.fabricmc.fabric.api.client.keybinding/-fabric-key-binding/-builder/build.html
+$dokka.location:net.fabricmc.fabric.api.client.keybinding/FabricKeyBinding.Builder/create/#net.minecraft.util.Identifier#net.minecraft.client.util.InputUtil.Type#int#java.lang.String/PointingToDeclaration/fabric-keybindings-v0/net.fabricmc.fabric.api.client.keybinding/-fabric-key-binding/-builder/create.html
+$dokka.location:net.fabricmc.fabric.api.client.keybinding/FabricKeyBinding///PointingToDeclaration/fabric-keybindings-v0/net.fabricmc.fabric.api.client.keybinding/-fabric-key-binding/index.html
+$dokka.location:net.fabricmc.fabric.api.client.keybinding/FabricKeyBinding/getBoundKey/#/PointingToDeclaration/fabric-keybindings-v0/net.fabricmc.fabric.api.client.keybinding/-fabric-key-binding/get-bound-key.html
+$dokka.location:net.fabricmc.fabric.api.client.keybinding/KeyBindingRegistry///PointingToDeclaration/fabric-keybindings-v0/net.fabricmc.fabric.api.client.keybinding/-key-binding-registry/index.html
+$dokka.location:net.fabricmc.fabric.api.client.keybinding/KeyBindingRegistry/addCategory/#java.lang.String/PointingToDeclaration/fabric-keybindings-v0/net.fabricmc.fabric.api.client.keybinding/-key-binding-registry/add-category.html
+$dokka.location:net.fabricmc.fabric.api.client.keybinding/KeyBindingRegistry/register/#net.fabricmc.fabric.api.client.keybinding.FabricKeyBinding/PointingToDeclaration/fabric-keybindings-v0/net.fabricmc.fabric.api.client.keybinding/-key-binding-registry/register.html
 net.fabricmc.fabric.api.client.keybinding
 

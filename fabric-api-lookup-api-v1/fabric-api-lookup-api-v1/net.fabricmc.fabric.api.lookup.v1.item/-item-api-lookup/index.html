@@ -1,0 +1,205 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>ItemApiLookup</title>
+<link href="../../../../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script><script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script>  </head>
+  <body>
+    <div id="container">
+      <div id="leftColumn"><a href="../../../index.html">
+          <div id="logo"></div>
+        </a>
+        <div id="paneSearch"></div>
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main">
+        <div id="leftToggler"><span class="icon-toggler"></span></div>
+<script type="text/javascript" src="../../../scripts/main.js"></script>        <div class="main-content" id="content" pageIds="fabric-api-lookup-api-v1::net.fabricmc.fabric.api.lookup.v1.item/ItemApiLookup///PointingToDeclaration//-432455091">
+          <div class="navigation-wrapper" id="navigation-wrapper">
+            <div class="breadcrumbs"><a href="../../../index.html">fabric-api-lookup-api-v1</a>/<a href="../index.html">net.fabricmc.fabric.api.lookup.v1.item</a>/<a href="index.html">ItemApiLookup</a></div>
+            <div class="pull-right d-flex">
+              <div id="searchBar"></div>
+            </div>
+          </div>
+          <div class="cover ">
+            <h1 class="cover"><span>Item</span><wbr></wbr><span>Api</span><wbr></wbr><span>Lookup</span></h1>
+            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="symbol monospace">public interface <a href="index.html">ItemApiLookup</a>&lt;A, C&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">An object that allows retrieving APIs from item stacks. Instances of this interface can be obtained through <a href="get.html">get</a>. </p><p class="paragraph">When trying to <a href="find.html">find</a> an API for an item stack, the provider registered for the item of the stack will be queried if it exists. If it doesn't exist, or if it returns <code>{@code null}</code>, the fallback providers will be queried in order. </p>Usage ExampleLet us reuse <code>{@code FluidContainer}</code> from <a href="../../net.fabricmc.fabric.api.lookup.v1.block/-block-api-lookup/index.html">the BlockApiLookup example</a>. We will query <code>{@code FluidContainer}</code> instances from the stack directly. We need no context, so we will use <code>{@code Void}</code>. <div class="sample-container"><code class="" theme="idea"><pre><code>{@code * public interface FluidContainer { * boolean containsFluids(); // return true if not empty * }}</code></pre></code></div>We need to create the ItemApiLookup: <div class="sample-container"><code class="" theme="idea"><pre><code>{@code * public final class MyApi { * public static final ItemApiLookupFLUID_CONTAINER_ITEM = ItemApiLookup.get(new Identifier(&quot;mymod:fluid_container&quot;), FluidContainer.class, Void.class);
+ * }}</code></pre></code></div>API instances are easy to access: <div class="sample-container"><code class="" theme="idea"><pre><code>{@code * FluidContainer container = MyApi.FLUID_CONTAINER_ITEM.find(itemStack, null); // Void is always null * if (container != null) { * // Do something with the container * if (container.containsFluids()) { * System.out.println(&quot;It contains fluids!&quot;); * } * }}</code></pre></code></div>For the query to return a useful result, we must expose the API: <div class="sample-container"><code class="" theme="idea"><pre><code>{@code * // If the item directly implements the interface, registerSelf can be used. * public class InfiniteWaterItem implements FluidContainer { * ＠Override * public boolean containsFluids() { * return true; // This item always contains fluids! * } * } * MyApi.FLUID_CONTAINER_ITEM.registerSelf(INFINITE_WATER_ITEM); * * // Otherwise, registerForItems can be used. * MyApi.FLUID_CONTAINER_ITEM.registerForItems((itemStack, ignored) -&gt; { * // return a FluidContainer for your item, or null if there is none * // the second parameter is Void in this case, so it's always null and can be ignored * }, ITEM_INSTANCE, ANOTHER_ITEM_INSTANCE); // register as many items as you want * * // General fallback, to interface with anything, for example another ItemApiLookup. * MyApi.FLUID_CONTAINER_ITEM.registerFallback((itemStack, ignored) -&gt; { * // return something if available, or null * });}</code></pre></code></div>Generic context typesNote that <code>{@code FluidContainer}</code> and <code>{@code Void}</code> were completely arbitrary in this example. We can define any <code>{@code ItemApiLookup&lt;A, C&gt;}</code>, where <code>{@code A}</code> is the type of the queried API, and <code>{@code C}</code> is the type of the additional context (the void parameter in the previous example). If no context is necessary, <code>{@code Void}</code> should be used, and <code>{@code null}</code> instances should be passed, like we did in the example.</div></div>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Parameters">Parameters</button><button class="section-tab" data-togglable="Sources">Sources</button><button class="section-tab" data-togglable="Inheritors">Inheritors</button></div>
+            <div class="tabs-section-body">
+              <h2 class="">Parameters</h2>
+              <div data-togglable="Parameters">
+                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="Parameters"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-api-lookup-api-v1:dokkaHtml/main"><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">&lt;A&gt;</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">The type of the API.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex">&lt;C&gt;</span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">The type of the additional context object.</p></div></div></div></div></div></div></div></div></div>
+              </div>
+              <h2 class="">Types</h2>
+              <div class="table" data-togglable="Types"><a data-name="2098149992%2FClasslikes%2F-432455091" anchor-label="ItemApiProvider" id="2098149992%2FClasslikes%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="-item-api-provider/index.html">ItemApiProvider</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2098149992%2FClasslikes%2F-432455091"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="symbol monospace">public interface <a href="-item-api-provider/index.html">ItemApiProvider</a>&lt;A, C&gt;<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+</div>
+</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Functions</h2>
+              <div class="table" data-togglable="Functions"><a data-name="-146610481%2FFunctions%2F-432455091" anchor-label="apiClass" id="-146610481%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="api-class.html">apiClass</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-146610481%2FFunctions%2F-432455091"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="symbol monospace block">abstract <a href="https://docs.oracle.com/en/java/javase/16/docs/api/java.base/java/lang/Class.html">Class</a>&lt;<a href="../../net.fabricmc.fabric.impl.lookup.item/-item-api-lookup-impl/index.html">A</a>&gt; <a href="api-class.html">apiClass</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="-146610481%2FFunctions%2F-432455091" anchor-label="apiClass" id="-146610481%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a><div class="brief "><a data-name="-146610481%2FFunctions%2F-432455091" anchor-label="apiClass" id="-146610481%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>Return the API class of this lookup.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1681065892%2FFunctions%2F-432455091" anchor-label="contextClass" id="1681065892%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="context-class.html">contextClass</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1681065892%2FFunctions%2F-432455091"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="symbol monospace block">abstract <a href="https://docs.oracle.com/en/java/javase/16/docs/api/java.base/java/lang/Class.html">Class</a>&lt;<a href="index.html">C</a>&gt; <a href="context-class.html">contextClass</a>()<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="1681065892%2FFunctions%2F-432455091" anchor-label="contextClass" id="1681065892%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a><div class="brief "><a data-name="1681065892%2FFunctions%2F-432455091" anchor-label="contextClass" id="1681065892%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>Return the context class of this lookup.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1500274904%2FFunctions%2F-432455091" anchor-label="find" id="-1500274904%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="find.html">find</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1500274904%2FFunctions%2F-432455091"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="symbol monospace block"><div class="block"><div class="block">@<span data-unresolved-link="org.jetbrains.annotations/Nullable///PointingToDeclaration/">Nullable</span>()</div></div>abstract <a href="index.html">A</a> <a href="find.html">find</a>(<span data-unresolved-link="net.minecraft.item/ItemStack///PointingToDeclaration/">ItemStack</span> itemStack, <a href="index.html">C</a> context)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="-1500274904%2FFunctions%2F-432455091" anchor-label="find" id="-1500274904%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a><div class="brief "><a data-name="-1500274904%2FFunctions%2F-432455091" anchor-label="find" id="-1500274904%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>Attempt to retrieve an API from an item stack.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-817047286%2FFunctions%2F-432455091" anchor-label="get" id="-817047286%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get.html">get</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-817047286%2FFunctions%2F-432455091"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="symbol monospace block">static <a href="index.html">ItemApiLookup</a>&lt;<a href="../../net.fabricmc.fabric.impl.lookup.item/-item-api-lookup-impl/index.html">A</a>, <a href="index.html">C</a>&gt; <a href="get.html">get</a>&lt;A, C&gt;(<span data-unresolved-link="net.minecraft.util/Identifier///PointingToDeclaration/">Identifier</span> lookupId, <a href="https://docs.oracle.com/en/java/javase/16/docs/api/java.base/java/lang/Class.html">Class</a>&lt;<a href="../../net.fabricmc.fabric.impl.lookup.item/-item-api-lookup-impl/index.html">A</a>&gt; apiClass, <a href="https://docs.oracle.com/en/java/javase/16/docs/api/java.base/java/lang/Class.html">Class</a>&lt;<a href="index.html">C</a>&gt; contextClass)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="-817047286%2FFunctions%2F-432455091" anchor-label="get" id="-817047286%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a><div class="brief "><a data-name="-817047286%2FFunctions%2F-432455091" anchor-label="get" id="-817047286%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>Retrieve the <a href="index.html">ItemApiLookup</a> associated with an identifier, or create it if it didn't exist yet.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1964388258%2FFunctions%2F-432455091" anchor-label="registerFallback" id="1964388258%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="register-fallback.html">registerFallback</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1964388258%2FFunctions%2F-432455091"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="symbol monospace block">abstract void <a href="register-fallback.html">registerFallback</a>(<a href="-item-api-provider/index.html">ItemApiLookup.ItemApiProvider</a>&lt;<a href="../../net.fabricmc.fabric.impl.lookup.item/-item-api-lookup-impl/index.html">A</a>, <a href="index.html">C</a>&gt; fallbackProvider)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="1964388258%2FFunctions%2F-432455091" anchor-label="registerFallback" id="1964388258%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a><div class="brief "><a data-name="1964388258%2FFunctions%2F-432455091" anchor-label="registerFallback" id="1964388258%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>Expose the API for all queries: the fallbacks providers will be invoked if no object was found using the regular providers.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="239148085%2FFunctions%2F-432455091" anchor-label="registerForItems" id="239148085%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="register-for-items.html">registerForItems</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="239148085%2FFunctions%2F-432455091"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="symbol monospace block">abstract void <a href="register-for-items.html">registerForItems</a>(<a href="-item-api-provider/index.html">ItemApiLookup.ItemApiProvider</a>&lt;<a href="../../net.fabricmc.fabric.impl.lookup.item/-item-api-lookup-impl/index.html">A</a>, <a href="index.html">C</a>&gt; provider, <span data-unresolved-link="kotlin/Array///PointingToDeclaration/">Array</span>&lt;<span data-unresolved-link="net.minecraft.item/ItemConvertible///PointingToDeclaration/">ItemConvertible</span>&gt; items)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="239148085%2FFunctions%2F-432455091" anchor-label="registerForItems" id="239148085%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a><div class="brief "><a data-name="239148085%2FFunctions%2F-432455091" anchor-label="registerForItems" id="239148085%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>Expose the API for the passed items.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="1578527871%2FFunctions%2F-432455091" anchor-label="registerSelf" id="1578527871%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="register-self.html">registerSelf</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1578527871%2FFunctions%2F-432455091"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":fabric-api-lookup-api-v1:dokkaHtml/main"><div class="symbol monospace block">abstract void <a href="register-self.html">registerSelf</a>(<span data-unresolved-link="kotlin/Array///PointingToDeclaration/">Array</span>&lt;<span data-unresolved-link="net.minecraft.item/ItemConvertible///PointingToDeclaration/">ItemConvertible</span>&gt; items)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="1578527871%2FFunctions%2F-432455091" anchor-label="registerSelf" id="1578527871%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a><div class="brief "><a data-name="1578527871%2FFunctions%2F-432455091" anchor-label="registerSelf" id="1578527871%2FFunctions%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>Expose the API for the passed items directly implementing it.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Inheritors</h2>
+              <div class="table" data-togglable="Inheritors"><a data-name="-1871330785%2FInheritors%2F-432455091" anchor-label="ItemApiLookupImpl" id="-1871330785%2FInheritors%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="../../net.fabricmc.fabric.impl.lookup.item/-item-api-lookup-impl/index.html">ItemApiLookupImpl</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1871330785%2FInheritors%2F-432455091"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Sources</h2>
+              <div class="table" data-togglable="Sources"><a data-name="-1564012494%2FSource%2F-432455091" anchor-label="https://github.com/FabricMC/fabric/blob/1.17/fabric-api-lookup-api-v1/src/main/java/net/fabricmc/fabric/api/lookup/v1/item/ItemApiLookup.java#L29" id="-1564012494%2FSource%2F-432455091" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main"></a>
+                <div class="table-row" data-filterable-current=":fabric-api-lookup-api-v1:dokkaHtml/main" data-filterable-set=":fabric-api-lookup-api-v1:dokkaHtml/main">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="https://github.com/FabricMC/fabric/blob/1.17/fabric-api-lookup-api-v1/src/main/java/net/fabricmc/fabric/api/lookup/v1/item/ItemApiLookup.java#L29">jvm source</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1564012494%2FSource%2F-432455091"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2021 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  </body>
+</html>
+

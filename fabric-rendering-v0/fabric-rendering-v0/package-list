@@ -1,6 +1,14 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.client.render////PointingToDeclaration/fabric-rendering-v0/net.fabricmc.fabric.api.client.render/index.html
+$dokka.location:net.fabricmc.fabric.api.client.render/ColorProviderRegistry///PointingToDeclaration/fabric-rendering-v0/net.fabricmc.fabric.api.client.render/-color-provider-registry/index.html
+$dokka.location:net.fabricmc.fabric.api.client.render/ColorProviderRegistry/get/#T/PointingToDeclaration/fabric-rendering-v0/net.fabricmc.fabric.api.client.render/-color-provider-registry/get.html
+$dokka.location:net.fabricmc.fabric.api.client.render/ColorProviderRegistry/register/#Provider#T.../PointingToDeclaration/fabric-rendering-v0/net.fabricmc.fabric.api.client.render/-color-provider-registry/register.html
+$dokka.location:net.fabricmc.fabric.api.client.render/InvalidateRenderStateCallback///PointingToDeclaration/fabric-rendering-v0/net.fabricmc.fabric.api.client.render/-invalidate-render-state-callback/index.html
+$dokka.location:net.fabricmc.fabric.api.client.render/InvalidateRenderStateCallback/onInvalidate/#/PointingToDeclaration/fabric-rendering-v0/net.fabricmc.fabric.api.client.render/-invalidate-render-state-callback/on-invalidate.html
+$dokka.location:net.fabricmc.fabric.impl.client.rendering////PointingToDeclaration/fabric-rendering-v0/net.fabricmc.fabric.impl.client.rendering/index.html
+$dokka.location:net.fabricmc.fabric.impl.client.rendering/RenderingCallbackInvoker///PointingToDeclaration/fabric-rendering-v0/net.fabricmc.fabric.impl.client.rendering/-rendering-callback-invoker/index.html
+$dokka.location:net.fabricmc.fabric.impl.client.rendering/RenderingCallbackInvoker/onInitializeClient/#/PointingToDeclaration/fabric-rendering-v0/net.fabricmc.fabric.impl.client.rendering/-rendering-callback-invoker/on-initialize-client.html
 net.fabricmc.fabric.api.client.render
 net.fabricmc.fabric.impl.client.rendering
 

@@ -1,8 +1,0 @@
-$dokka.format:html-v1
-$dokka.linkExtension:html
-
-net.fabricmc.fabric.api.client.particle.v1
-net.fabricmc.fabric.api.particle.v1
-net.fabricmc.fabric.impl.client.particle
-net.fabricmc.fabric.mixin.client.particle
-

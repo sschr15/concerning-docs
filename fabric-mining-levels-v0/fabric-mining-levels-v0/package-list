@@ -1,6 +1,9 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.tag////PointingToDeclaration/fabric-mining-levels-v0/net.fabricmc.fabric.api.tag/index.html
+$dokka.location:net.fabricmc.fabric.api.tag/FabricItemTags///PointingToDeclaration/fabric-mining-levels-v0/net.fabricmc.fabric.api.tag/-fabric-item-tags/index.html
+$dokka.location:net.fabricmc.fabric.api.tools////PointingToDeclaration/fabric-mining-levels-v0/net.fabricmc.fabric.api.tools/index.html
+$dokka.location:net.fabricmc.fabric.api.tools/FabricToolTags///PointingToDeclaration/fabric-mining-levels-v0/net.fabricmc.fabric.api.tools/-fabric-tool-tags/index.html
 net.fabricmc.fabric.api.tag
 net.fabricmc.fabric.api.tools
 

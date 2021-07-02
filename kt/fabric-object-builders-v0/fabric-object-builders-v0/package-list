@@ -1,8 +1,0 @@
-$dokka.format:html-v1
-$dokka.linkExtension:html
-
-net.fabricmc.fabric.api.block
-net.fabricmc.fabric.api.entity
-net.fabricmc.fabric.api.event.registry
-net.fabricmc.fabric.mixin.object.builder
-

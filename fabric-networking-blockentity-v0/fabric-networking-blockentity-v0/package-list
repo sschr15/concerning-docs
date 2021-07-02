@@ -1,6 +1,19 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-
+$dokka.location:net.fabricmc.fabric.api.block.entity////PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.api.block.entity/index.html
+$dokka.location:net.fabricmc.fabric.api.block.entity/BlockEntityClientSerializable///PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.api.block.entity/-block-entity-client-serializable/index.html
+$dokka.location:net.fabricmc.fabric.api.block.entity/BlockEntityClientSerializable/fromClientTag/#net.minecraft.nbt.NbtCompound/PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.api.block.entity/-block-entity-client-serializable/from-client-tag.html
+$dokka.location:net.fabricmc.fabric.api.block.entity/BlockEntityClientSerializable/sync/#/PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.api.block.entity/-block-entity-client-serializable/sync.html
+$dokka.location:net.fabricmc.fabric.api.block.entity/BlockEntityClientSerializable/toClientTag/#net.minecraft.nbt.NbtCompound/PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.api.block.entity/-block-entity-client-serializable/to-client-tag.html
+$dokka.location:net.fabricmc.fabric.mixin.networking.blockentity////PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.mixin.networking.blockentity/index.html
+$dokka.location:net.fabricmc.fabric.mixin.networking.blockentity/MixinBlockEntity///PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.mixin.networking.blockentity/-mixin-block-entity/index.html
+$dokka.location:net.fabricmc.fabric.mixin.networking.blockentity/MixinBlockEntity/getPos/#/PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.mixin.networking.blockentity/-mixin-block-entity/get-pos.html
+$dokka.location:net.fabricmc.fabric.mixin.networking.blockentity/MixinBlockEntity/getType/#/PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.mixin.networking.blockentity/-mixin-block-entity/get-type.html
+$dokka.location:net.fabricmc.fabric.mixin.networking.blockentity/MixinBlockEntity/toInitialChunkDataTag/#org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable<net.minecraft.nbt.NbtCompound>/PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.mixin.networking.blockentity/-mixin-block-entity/to-initial-chunk-data-tag.html
+$dokka.location:net.fabricmc.fabric.mixin.networking.blockentity/MixinBlockEntity/toUpdatePacket/#org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable<net.minecraft.network.packet.s2c.play.BlockEntityUpdateS2CPacket>/PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.mixin.networking.blockentity/-mixin-block-entity/to-update-packet.html
+$dokka.location:net.fabricmc.fabric.mixin.networking.blockentity/MixinClientPlayNetworkHandler///PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.mixin.networking.blockentity/-mixin-client-play-network-handler/index.html
+$dokka.location:net.fabricmc.fabric.mixin.networking.blockentity/MixinClientPlayNetworkHandler/deserializeBlockEntityChunkData/#net.minecraft.block.entity.BlockEntity#net.minecraft.nbt.NbtCompound/PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.mixin.networking.blockentity/-mixin-client-play-network-handler/deserialize-block-entity-chunk-data.html
+$dokka.location:net.fabricmc.fabric.mixin.networking.blockentity/MixinClientPlayNetworkHandler/onBlockEntityUpdate/#net.minecraft.network.packet.s2c.play.BlockEntityUpdateS2CPacket#org.spongepowered.asm.mixin.injection.callback.CallbackInfo#net.minecraft.util.math.BlockPos#net.minecraft.block.entity.BlockEntity/PointingToDeclaration/fabric-networking-blockentity-v0/net.fabricmc.fabric.mixin.networking.blockentity/-mixin-client-play-network-handler/on-block-entity-update.html
 net.fabricmc.fabric.api.block.entity
 net.fabricmc.fabric.mixin.networking.blockentity
 

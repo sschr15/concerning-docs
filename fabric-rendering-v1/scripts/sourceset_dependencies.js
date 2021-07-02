@@ -1,1 +1,1 @@
-sourceset_dependencies = '{":fabric-rendering-v1:dokkaHtml/main": []}'
+sourceset_dependencies='{":fabric-rendering-v1:dokkaHtml/main":[]}'
